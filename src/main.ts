@@ -109,13 +109,33 @@ function getScoreSummary(): { correct: number; total: number; wrong: number } {
   return { correct, total, wrong: total - correct }
 }
 
-function getQuarterRanges(total: number): Array<{ start: number; end: number }> {
+function getQuestionNumber(question: Question): number {
+  const match = question.id.match(/(\d+)$/)
+  return match ? Number(match[1]) : Number(question.id)
+}
+
+function sortByQuestionNumber(questions: Question[]): Question[] {
+  return [...questions].sort((a, b) => getQuestionNumber(a) - getQuestionNumber(b))
+}
+
+function getDisplayNumber(subject: Subject, question: Question): number {
+  const ordered = sortByQuestionNumber(subject.questions)
+  const idx = ordered.findIndex((item) => item.id === question.id)
+  return idx === -1 ? 0 : idx + 1
+}
+
+function getQuarterRanges(questions: Question[]): Array<{ start: number; end: number; questions: Question[] }> {
+  const sorted = sortByQuestionNumber(questions)
+  const total = sorted.length
   const chunk = Math.ceil(total / 4)
+
   return Array.from({ length: 4 }, (_, idx) => {
     const start = idx * chunk + 1
     const end = Math.min((idx + 1) * chunk, total)
-    return { start, end }
-  }).filter((range) => range.start <= range.end)
+    const scoped = sorted.slice(start - 1, end)
+    if (scoped.length === 0) return null
+    return { start, end, questions: scoped }
+  }).filter((range): range is { start: number; end: number; questions: Question[] } => range !== null)
 }
 
 function startReadMode(subjectId: string): void {
@@ -136,14 +156,13 @@ function startRandom50(subjectId: string): void {
 function startQuarterQuiz(subjectId: string, quarterIndex: number): void {
   const subject = subjects.find((item) => item.id === subjectId)
   if (!subject) return
-  const ranges = getQuarterRanges(subject.questions.length)
+  const ranges = getQuarterRanges(subject.questions)
   const selectedRange = ranges[quarterIndex]
   if (!selectedRange) return
 
-  const scoped = subject.questions.slice(selectedRange.start - 1, selectedRange.end)
   startQuizWithQuestions(
     subjectId,
-    shuffle(scoped),
+    selectedRange.questions,
     `${subject.label} - ${selectedRange.start}-${selectedRange.end} 題`,
   )
 }
@@ -189,7 +208,7 @@ function renderHome(): string {
               </div>
               <p class="subtle">四等分測驗</p>
               <div class="actions">
-                ${getQuarterRanges(subject.questions.length)
+                ${getQuarterRanges(subject.questions)
                   .map(
                     (range, idx) => `
                     <button class="btn" data-action="quarter" data-subject="${subject.id}" data-quarter="${idx}">
@@ -209,6 +228,7 @@ function renderHome(): string {
 
 function renderRead(): string {
   if (!state.subject) return renderHome()
+  const orderedQuestions = sortByQuestionNumber(state.subject.questions)
   return `
     <main class="container">
       <header class="quiz-header">
@@ -219,7 +239,7 @@ function renderRead(): string {
         </div>
       </header>
       <section class="read-list">
-        ${state.subject.questions
+        ${orderedQuestions
           .map(
             (q, idx) => `
             <article class="card read-item">
@@ -263,7 +283,7 @@ function renderQuiz(): string {
       </header>
 
       <section class="card question-card">
-        <h2>Q${state.currentIndex + 1}. ${currentQuestion.prompt}</h2>
+        <h2>Q${getDisplayNumber(state.subject, currentQuestion)}. ${currentQuestion.prompt}</h2>
         <div class="options">
           ${currentQuestion.options
             .map(
