@@ -1,0 +1,1192 @@
+{
+  "questions": [
+    {
+      "id": 1,
+      "question": "腹骨盆腔九分區的假想線中，最下方水平線通過下列何者？",
+      "options": {
+        "A": "髂嵴",
+        "B": "恥骨聯合上緣",
+        "C": "恥骨聯合下緣",
+        "D": "第 1、2 腰椎之交界處"
+      },
+      "answer": "B"
+    },
+    {
+      "id": 2,
+      "question": "就人體組成的階層而言，去氧核糖核酸屬於何種階層？",
+      "options": {
+        "A": "化學",
+        "B": "細",
+        "C": "組織",
+        "D": "器官"
+      },
+      "answer": "A"
+    },
+    {
+      "id": 3,
+      "question": "脾臟位於腹腔的哪個區域？",
+      "options": {
+        "A": "左季肋區",
+        "B": "右季肋區",
+        "C": "腹上區",
+        "D": "腹下區"
+      },
+      "answer": "A"
+    },
+    {
+      "id": 4,
+      "question": "下列有關體腔與體膜的敘述，何者錯誤？",
+      "options": {
+        "A": "顱腔內壁皆貼附著硬腦膜",
+        "B": "胸腔內壁皆貼附著胸膜",
+        "C": "腹腔內壁皆貼附著腹膜",
+        "D": "骨盆腔內壁皆貼附著腹膜"
+      },
+      "answer": "D"
+    },
+    {
+      "id": 5,
+      "question": "下列有關胸縱膈的敘述，何者正確？",
+      "options": {
+        "A": "內含心臟及肺臟",
+        "B": "是胸腔內的密閉體腔",
+        "C": "主動脈不經過胸縱膈",
+        "D": "底部由橫膈與腹腔分隔"
+      },
+      "answer": "D"
+    },
+    {
+      "id": 6,
+      "question": "下列胞器，何者是由兩層膜組成？",
+      "options": {
+        "A": "粒線體",
+        "B": "溶酶",
+        "C": "過氧化體",
+        "D": "核糖體"
+      },
+      "answer": "A"
+    },
+    {
+      "id": 7,
+      "question": "碳水化合物 (carbohydrate) 的碳、氫、氧原子數目的比率是：",
+      "options": {
+        "A": "1:1:1",
+        "B": "1:2:1",
+        "C": "1:3:1",
+        "D": "1:4:1"
+      },
+      "answer": "B"
+    },
+    {
+      "id": 8,
+      "question": "由鹼基順序為 ATTCGCATG 的 DNA，所轉錄形成的 RNA 上所含有的鹼基順序將會是？",
+      "options": {
+        "A": "ATTCGCATG",
+        "B": "AUUCGCAUC",
+        "C": "TAAGCGTAC",
+        "D": "UAAGCGUAC"
+      },
+      "answer": "D"
+    },
+    {
+      "id": 9,
+      "question": "遺傳訊息的轉譯 (translation) 是指：",
+      "options": {
+        "A": "按照 DNA 上的密碼次序合成 mRNA 的過程",
+        "B": "按照 DNA 上的密碼次序合成 rRNA 的過程",
+        "C": "按照 mRNA 上的密碼次序合成蛋白質的過程",
+        "D": "按照 mRNA 上的密碼次序合成 DNA 的過程"
+      },
+      "answer": "C"
+    },
+    {
+      "id": 10,
+      "question": "關於「粒線體特性」的敘述，下列何者正確？",
+      "options": {
+        "A": "內腔結構充滿基質 (matrix)",
+        "B": "粒線體 DNA 與組蛋白 (histone) 結合",
+        "C": "粒線體的形成可靠粒線體本身 DNA 轉錄、轉譯完成",
+        "D": "提供身體約 20% 的核苷三磷酸 (ATP) 能量來源"
+      },
+      "answer": "A"
+    },
+    {
+      "id": 11,
+      "question": "細胞凋亡 (apoptosis) 過程中會釋出酵素將細胞水解的胞器是：",
+      "options": {
+        "A": "過氧化氫酶體 (peroxisome)",
+        "B": "中心體 (centrosome)",
+        "C": "溶小體 (lysosome)",
+        "D": "核醣體 (ribosome)"
+      },
+      "answer": "C"
+    },
+    {
+      "id": 12,
+      "question": "人體最常使用下列哪一種有機化合物作為主要能量來源？",
+      "options": {
+        "A": "醣類",
+        "B": "蛋白質",
+        "C": "脂質",
+        "D": "核酸"
+      },
+      "answer": "A"
+    },
+    {
+      "id": 13,
+      "question": "物質通過細胞膜，需要消耗能量 (ATP) 的方式為：",
+      "options": {
+        "A": "主動運輸",
+        "B": "促進性擴散",
+        "C": "滲透作用",
+        "D": "簡單擴散"
+      },
+      "answer": "A"
+    },
+    {
+      "id": 14,
+      "question": "有關各器官之上皮結構何者錯誤？",
+      "options": {
+        "A": "食道：複層鱗狀上皮",
+        "B": "胃：單層柱狀上皮",
+        "C": "膽囊：複層鱗狀上皮",
+        "D": "升結腸：單層柱狀上皮"
+      },
+      "answer": "C"
+    },
+    {
+      "id": 15,
+      "question": "有關胸膜與腹膜的敘述，下列何者錯誤？",
+      "options": {
+        "A": "皆屬於漿膜 (serosa)",
+        "B": "皆有壁層與臟層之分",
+        "C": "皆具有單層上皮",
+        "D": "前者包覆所有胸腔的臟器，後者包覆所有腹腔的臟器"
+      },
+      "answer": "D"
+    },
+    {
+      "id": 16,
+      "question": "下列何者的內襯上皮不是單層柱狀？",
+      "options": {
+        "A": "胃",
+        "B": "十二指腸",
+        "C": "食道",
+        "D": "降結腸"
+      },
+      "answer": "C"
+    },
+    {
+      "id": 17,
+      "question": "下列有關上皮組織的敘述，何者錯誤？",
+      "options": {
+        "A": "心包腔內襯著上皮組織",
+        "B": "身體表面皆覆蓋著上皮組織",
+        "C": "骨骼表面皆包覆著上皮組織",
+        "D": "整條消化道皆內襯著上皮組織"
+      },
+      "answer": "C"
+    },
+    {
+      "id": 18,
+      "question": "髕韌帶主要由下列何者構成？",
+      "options": {
+        "A": "弓狀纖維",
+        "B": "網狀纖維",
+        "C": "膠原纖維",
+        "D": "彈性纖維"
+      },
+      "answer": "C"
+    },
+    {
+      "id": 19,
+      "question": "下列何者之上皮組織屬於移形上皮？",
+      "options": {
+        "A": "膀胱",
+        "B": "子宮",
+        "C": "陰道",
+        "D": "直腸"
+      },
+      "answer": "A"
+    },
+    {
+      "id": 20,
+      "question": "下列何者不是皮膚表皮的細胞層？",
+      "options": {
+        "A": "基底層",
+        "B": "棘狀層",
+        "C": "顆粒層",
+        "D": "網狀層"
+      },
+      "answer": "D"
+    },
+    {
+      "id": 21,
+      "question": "有關表皮的敘述，下列何者錯誤？",
+      "options": {
+        "A": "由角質化複層鱗狀上皮組成",
+        "B": "黑色素細胞主要位於基底層",
+        "C": "可見到許多成纖維母細胞 (fibroblasts)",
+        "D": "沒有血管分布"
+      },
+      "answer": "C"
+    },
+    {
+      "id": 22,
+      "question": "皮膚表皮層次中，哪一層可以找到蘭氏細胞 (Langerhan cells)？",
+      "options": {
+        "A": "基底層",
+        "B": "棘狀層",
+        "C": "顆粒層",
+        "D": "透明層",
+        "E": "角質層"
+      },
+      "answer": "B"
+    },
+    {
+      "id": 23,
+      "question": "下列哪一種位於表皮的細胞具有吞噬功能，作用如同表皮的巨噬細胞？",
+      "options": {
+        "A": "黑色素細胞",
+        "B": "梅克爾氏盤",
+        "C": "蘭氏細胞",
+        "D": "角質細胞"
+      },
+      "answer": "C"
+    },
+    {
+      "id": 24,
+      "question": "皮膚負責感受觸覺的觸覺接受器（梅斯納氏小體），請問位於皮膚的哪一層？",
+      "options": {
+        "A": "表皮層",
+        "B": "真皮乳突層",
+        "C": "真皮網狀層",
+        "D": "皮下脂肪層"
+      },
+      "answer": "B"
+    },
+    {
+      "id": 25,
+      "question": "下列何者不是影響膚色的直接且重要因素？",
+      "options": {
+        "A": "黑色素",
+        "B": "胡蘿蔔素",
+        "C": "血紅素",
+        "D": "維生素 D"
+      },
+      "answer": "D"
+    },
+    {
+      "id": 26,
+      "question": "下列有關表皮的敘述，何者正確？",
+      "options": {
+        "A": "富含微血管",
+        "B": "屬於複層柱狀上皮",
+        "C": "底層的細胞具增生功能",
+        "D": "底層由角質細胞組成，淺層無此類細胞"
+      },
+      "answer": "C"
+    },
+    {
+      "id": 27,
+      "question": "附著於毛髮與真皮的豎毛肌，受到交感神經調控，是屬於何種肌肉？",
+      "options": {
+        "A": "骨骼肌",
+        "B": "心肌",
+        "C": "平滑肌"
+      },
+      "answer": "C"
+    },
+    {
+      "id": 28,
+      "question": "下列有關皮脂腺的敘述，何者正確？",
+      "options": {
+        "A": "分泌物經由毛囊排至體表",
+        "B": "細胞分泌時本身並不損失，又稱為全泌腺",
+        "C": "分泌細胞分布於表皮和真皮",
+        "D": "耵聹腺和瞼板腺均屬特化的皮脂腺"
+      },
+      "answer": "A"
+    },
+    {
+      "id": 29,
+      "question": "有關皮膚的敘述，下列何者正確？",
+      "options": {
+        "A": "真皮網狀層是由疏鬆結締組織所構成",
+        "B": "皮脂腺主要位於皮下層",
+        "C": "曝曬紫外線會大量增加黑色素細胞數量，導致膚色變深",
+        "D": "頂漿汗腺 (apocrine sweat gland) 的排泄管開口於毛囊"
+      },
+      "answer": "D"
+    },
+    {
+      "id": 30,
+      "question": "在青春期，下列何者對長骨的「縱向生長」最為重要？",
+      "options": {
+        "A": "骨外膜 (periosteum)",
+        "B": "骨內膜 (endosteum)",
+        "C": "骨骺板 (epiphyseal plate)",
+        "D": "骨骺線 (epiphyseal line)"
+      },
+      "answer": "C"
+    },
+    {
+      "id": 31,
+      "question": "小腿脛骨 (tibia) 的外形，屬於下列何種骨骼？",
+      "options": {
+        "A": "長骨",
+        "B": "短骨",
+        "C": "扁平骨",
+        "D": "種子骨"
+      },
+      "answer": "A"
+    },
+    {
+      "id": 32,
+      "question": "下列何者是尺骨的表面標記？",
+      "options": {
+        "A": "鷹嘴 (olecranon)",
+        "B": "滑車 (trochlea)",
+        "C": "小頭 (capitulum)",
+        "D": "結節 (tubercle)"
+      },
+      "answer": "A"
+    },
+    {
+      "id": 33,
+      "question": "下列何者含副鼻竇？",
+      "options": {
+        "A": "鼻骨",
+        "B": "顴骨",
+        "C": "腭骨",
+        "D": "額骨"
+      },
+      "answer": "D"
+    },
+    {
+      "id": 34,
+      "question": "下列哪一塊骨頭中不具有副鼻竇的構造？",
+      "options": {
+        "A": "上頜骨",
+        "B": "下頜骨",
+        "C": "篩骨",
+        "D": "蝶骨"
+      },
+      "answer": "B"
+    },
+    {
+      "id": 35,
+      "question": "下列何者是海綿骨的結構成分？",
+      "options": {
+        "A": "骨小樑 (trabecula)",
+        "B": "骨元 (osteon)",
+        "C": "中央管 (central canal)",
+        "D": "穿通管 (perforating canal)"
+      },
+      "answer": "A"
+    },
+    {
+      "id": 36,
+      "question": "下列何者同時參與足部內側縱弓及外側縱弓的形成？",
+      "options": {
+        "A": "跟骨 (calcaneus)",
+        "B": "距骨 (talus)",
+        "C": "骰骨 (cuboid)",
+        "D": "楔骨 (cuneiform)"
+      },
+      "answer": "A"
+    },
+    {
+      "id": 37,
+      "question": "下列有關蝶骨的敘述，何者錯誤？",
+      "options": {
+        "A": "含副鼻竇",
+        "B": "形成腦下垂體窩",
+        "C": "內有管道與眼眶相通",
+        "D": "與第一頸椎形成關節"
+      },
+      "answer": "D"
+    },
+    {
+      "id": 38,
+      "question": "顴弓 (zygomatic arch) 是由顴骨與下列何者共同組成？",
+      "options": {
+        "A": "額骨",
+        "B": "顳骨",
+        "C": "蝶骨",
+        "D": "上頜骨"
+      },
+      "answer": "B"
+    },
+    {
+      "id": 39,
+      "question": "下列頭顱骨骼，何者負責與頸椎形成關節？",
+      "options": {
+        "A": "枕骨",
+        "B": "顳骨",
+        "C": "蝶骨",
+        "D": "篩骨"
+      },
+      "answer": "A"
+    },
+    {
+      "id": 40,
+      "question": "組成踝關節 (ankle joint) 的骨骼，除脛骨、腓骨之外還包括：",
+      "options": {
+        "A": "跟骨 (calcaneus)",
+        "B": "蹠骨 (metatarsal bone)",
+        "C": "骰骨 (cuboid)",
+        "D": "距骨 (talus)"
+      },
+      "answer": "D"
+    },
+    {
+      "id": 41,
+      "question": "關於第7肋骨的描述下列何者錯誤？",
+      "options": {
+        "A": "屬於真肋 (true ribs)",
+        "B": "屬於假肋 (false ribs)",
+        "C": "屬於典型肋骨",
+        "D": "第8肋軟骨附著於第7肋軟骨"
+      },
+      "answer": "B"
+    },
+    {
+      "id": 42,
+      "question": "當肱骨 (humerus) 的骨幹發生骨折，最可能直接傷及哪一條神經？",
+      "options": {
+        "A": "肌皮神經 (musculocutaneous nerve)",
+        "B": "正中神經 (median nerve)",
+        "C": "尺神經 (ulnar nerve)",
+        "D": "橈神經 (radial nerve)"
+      },
+      "answer": "D"
+    },
+    {
+      "id": 43,
+      "question": "哪一塊腕骨與第一掌骨構成鞍狀關節？",
+      "options": {
+        "A": "舟狀骨 (scaphoid)",
+        "B": "月狀骨 (lunate)",
+        "C": "大多角骨 (trapezium)",
+        "D": "小多角骨 (trapezoid)"
+      },
+      "answer": "C"
+    },
+    {
+      "id": 44,
+      "question": "與腓骨形成關節的骨骼為何？",
+      "options": {
+        "A": "股骨與距骨",
+        "B": "股骨與髖骨",
+        "C": "脛骨與距骨",
+        "D": "脛骨與跟骨"
+      },
+      "answer": "C"
+    },
+    {
+      "id": 45,
+      "question": "與鎖骨形成關節的骨骼為何？",
+      "options": {
+        "A": "肱骨與胸骨",
+        "B": "肱骨與肩胛骨",
+        "C": "胸骨與肋骨",
+        "D": "胸骨與肩胛骨"
+      },
+      "answer": "D"
+    },
+    {
+      "id": 46,
+      "question": "腕骨和第一掌骨形成何種關節？",
+      "options": {
+        "A": "屈戌關節",
+        "B": "鞍狀關節",
+        "C": "滑動關節",
+        "D": "球窩關節"
+      },
+      "answer": "B"
+    },
+    {
+      "id": 47,
+      "question": "下列關於膝關節的敘述，何者正確？",
+      "options": {
+        "A": "膝關節屬於球窩關節",
+        "B": "有十字韌帶連結股骨與腓骨",
+        "C": "髕韌帶是由股四頭肌的肌腱形成",
+        "D": "半月板的關節盤屬於彈性軟骨"
+      },
+      "answer": "C"
+    },
+    {
+      "id": 48,
+      "question": "下列何者屬於車軸關節？",
+      "options": {
+        "A": "寰枕關節",
+        "B": "胸鎖關節",
+        "C": "寰軸關節",
+        "D": "顳下頜關節"
+      },
+      "answer": "C"
+    },
+    {
+      "id": 49,
+      "question": "下列何者屬於屈戌關節？",
+      "options": {
+        "A": "掌指關節",
+        "B": "腕骨間關節",
+        "C": "脛股關節",
+        "D": "股關節"
+      },
+      "answer": "C"
+    },
+    {
+      "id": 50,
+      "question": "指間關節屬於下列何種關節？",
+      "options": {
+        "A": "屈戌關節",
+        "B": "樞軸關節",
+        "C": "滑動關節",
+        "D": "髁狀關節"
+      },
+      "answer": "A"
+    },
+    {
+      "id": 51,
+      "question": "下列有關滑液 (膜) 關節的敘述，何者錯誤？",
+      "options": {
+        "A": "都有滑液囊",
+        "B": "都有關節腔",
+        "C": "都有關節盤",
+        "D": "都有關節軟骨"
+      },
+      "answer": "C"
+    },
+    {
+      "id": 52,
+      "question": "足踝因過度外翻而造成韌帶撕裂傷，下列何者最可能受損？",
+      "options": {
+        "A": "前十字韌帶",
+        "B": "脛骨側韌帶",
+        "C": "腓骨側韌帶",
+        "D": "足踝內韌帶"
+      },
+      "answer": "C"
+    },
+    {
+      "id": 53,
+      "question": "膝關節屬於下列何種關節？",
+      "options": {
+        "A": "屈戌關節 (hinge joint)",
+        "B": "車軸關節 (pivot joint)",
+        "C": "鞍狀關節 (saddle joint)",
+        "D": "杵臼關節 (ball-and-socket joint)"
+      },
+      "answer": "A"
+    },
+    {
+      "id": 54,
+      "question": "下列何者屬於球窩關節 (ball-and-socket joint)？",
+      "options": {
+        "A": "膝關節 (knee joint)",
+        "B": "肩關節 (shoulder joint)",
+        "C": "肘關節 (elbow joint)",
+        "D": "顳下頜關節 (temporal mandibular joint)"
+      },
+      "answer": "B"
+    },
+    {
+      "id": 55,
+      "question": "打呵欠時用力過度，會造成下列何關節的脫位現象 (dislocation)？",
+      "options": {
+        "A": "胸鎖關節 (sternoclavicular joint)",
+        "B": "顳頜關節 (temporomandibular joint)",
+        "C": "寰枕關節 (atlanto-occipital joint)",
+        "D": "肩鎖關節 (scapuloclavicular joint)"
+      },
+      "answer": "B"
+    },
+    {
+      "id": 56,
+      "question": "間盤 (intercalated disc) 為下列何者之特殊結構？",
+      "options": {
+        "A": "骨骼肌",
+        "B": "心肌",
+        "C": "平滑肌",
+        "D": "橫紋肌"
+      },
+      "answer": "B"
+    },
+    {
+      "id": 57,
+      "question": "心肌細胞興奮時會增加細胞質中鈣離子的濃度，下列敘述何者正確？",
+      "options": {
+        "A": "從細胞外流入的鈣離子量等於從肌漿網釋放的量",
+        "B": "從細胞外流入的鈣離子量大於從肌漿網釋放的量",
+        "C": "從細胞外流入的鈣離子量小於從肌漿網釋放的量",
+        "D": "從細胞外流入的鈣離子量等於從粒線體釋放的量"
+      },
+      "answer": "C"
+    },
+    {
+      "id": 58,
+      "question": "下列何者藉由跟腱 (Achilles tendon) 附著於跟骨？",
+      "options": {
+        "A": "脛前肌",
+        "B": "脛後肌",
+        "C": "腓長肌",
+        "D": "腓腸肌"
+      },
+      "answer": "D"
+    },
+    {
+      "id": 59,
+      "question": "下列有關肌節 (sarcomere) 的明暗帶在肌肉收縮時的敘述，何者正確？",
+      "options": {
+        "A": "I band 縮短、H zone 不變",
+        "B": "H zone 縮短、I band 不變",
+        "C": "I band 及 H zone 皆縮短",
+        "D": "H zone 及 I band 皆不變"
+      },
+      "answer": "C"
+    },
+    {
+      "id": 60,
+      "question": "下列有關肌原纖維 (myofibril) 的敘述，何者正確？",
+      "options": {
+        "A": "由單一骨骼肌細胞 (skeletal muscle cell) 組成",
+        "B": "圓柱形的肌原纖維由肌絲 (muscle fiber) 組成",
+        "C": "為肌肉組織中儲存鈣離子的膜狀結構",
+        "D": "直接連接肌肉細胞和肌腱 (tendon)"
+      },
+      "answer": "B"
+    },
+    {
+      "id": 61,
+      "question": "出生後骨骼肌 (skeletal muscle) 受損傷或死亡，下列哪一種細胞可進行修補？",
+      "options": {
+        "A": "肌母細胞 (myoblast)",
+        "B": "纖維芽母細胞 (fibroblast)",
+        "C": "衛星細胞 (satellite cell)",
+        "D": "賽氏細胞 (Sertoli cell)"
+      },
+      "answer": "C"
+    },
+    {
+      "id": 62,
+      "question": "下列何者為心臟收縮最主要的能量來源？",
+      "options": {
+        "A": "葡萄糖",
+        "B": "蛋白質",
+        "C": "脂肪酸",
+        "D": "核酸"
+      },
+      "answer": "C"
+    },
+    {
+      "id": 63,
+      "question": "骨骼肌收縮時的鈣離子是從哪種鈣通道釋放出來？",
+      "options": {
+        "A": "肌醇三磷酸受體 (IP3 receptor)",
+        "B": "雷恩諾鹼受體 (ryanodine receptor)",
+        "C": "乙醯膽鹼受體 (ACh receptor)",
+        "D": "磷酸脂肌醇二磷酸受體 (PIP, receptor)"
+      },
+      "answer": "B"
+    },
+    {
+      "id": 64,
+      "question": "下列何者具有產生大量熱的功能？",
+      "options": {
+        "A": "骨骼",
+        "B": "肌肉",
+        "C": "循環",
+        "D": "神經"
+      },
+      "answer": "B"
+    },
+    {
+      "id": 65,
+      "question": "下列哪一個蛋白質不參與骨骼肌 (skeletal muscle) 的收縮？",
+      "options": {
+        "A": "肌凝蛋白",
+        "B": "旋轉素 (troponin)",
+        "C": "旋轉肌凝素 (tropomyosin)",
+        "D": "攜鈣素 (calmodulin)"
+      },
+      "answer": "D"
+    },
+    {
+      "id": 66,
+      "question": "食用含有河豚毒素 (tetrodotoxin) 的生魚片之後出現肌肉麻痺的現象，此現象為何種通道被阻斷所致？",
+      "options": {
+        "A": "鉀通道",
+        "B": "鈣通道",
+        "C": "鈉通道",
+        "D": "氯通道"
+      },
+      "answer": "C"
+    },
+    {
+      "id": 67,
+      "question": "內側蹄系 (medial lemniscus) 與下列何訊息傳遞有關？",
+      "options": {
+        "A": "視覺",
+        "B": "本體覺",
+        "C": "痛覺",
+        "D": "聽覺"
+      },
+      "answer": "B"
+    },
+    {
+      "id": 68,
+      "question": "下列關於摸到滾燙的熱水，手臂會迅速的收回的敘述，何者錯誤？",
+      "options": {
+        "A": "此反應是由痛的刺激所引起",
+        "B": "此時手臂屈肌收縮",
+        "C": "此反應無需大腦下達命令",
+        "D": "此反應的神經傳導途徑，無需中間神經元"
+      },
+      "answer": "D"
+    },
+    {
+      "id": 69,
+      "question": "有關靜止膜電位 (resting membrane potential) 之敘述，下列何者正確？",
+      "options": {
+        "A": "細胞外鉀離子濃度增加，靜止膜電位減小",
+        "B": "細胞外鉀離子濃度減少，靜止膜電位減小",
+        "C": "細胞內鉀離子濃度增加，靜止膜電位減小",
+        "D": "細胞內鉀離子濃度增加，靜止膜電位不變"
+      },
+      "answer": "A"
+    },
+    {
+      "id": 70,
+      "question": "下列何種細胞受損對血腦障壁 (blood-brain barrier) 的功能影響最大？",
+      "options": {
+        "A": "微膠細胞 (microglia)",
+        "B": "寡突細胞 (oligodendrocytes)",
+        "C": "星狀細胞 (astrocytes)",
+        "D": "室管膜細胞 (ependymal cells)"
+      },
+      "answer": "C"
+    },
+    {
+      "id": 71,
+      "question": "脊髓的齒狀韌帶由下列何者衍生構成？",
+      "options": {
+        "A": "軟脊膜",
+        "B": "蛛網膜",
+        "C": "硬脊膜",
+        "D": "絨毛膜"
+      },
+      "answer": "A"
+    },
+    {
+      "id": 72,
+      "question": "基底核 (basal nuclei) 功能受損或退化的症狀，下列何者最有關？",
+      "options": {
+        "A": "阿茲海默症",
+        "B": "帕金森氏症",
+        "C": "失語症",
+        "D": "嗅覺喪失"
+      },
+      "answer": "B"
+    },
+    {
+      "id": 73,
+      "question": "下列何者不是常見的神經傳導物質 (neurotransmitter)？",
+      "options": {
+        "A": "多巴胺 (Dopamine)",
+        "B": "甘胺酸 (glycine)",
+        "C": "血清素 (serotonin)",
+        "D": "胰島素 (insulin)"
+      },
+      "answer": "D"
+    },
+    {
+      "id": 74,
+      "question": "從脊髓圓錐 (conus medullaris) 向下延伸，下列何者連結尾骨，可用來幫忙固定脊髓？",
+      "options": {
+        "A": "馬尾 (cauda equine)",
+        "B": "終絲 (filum terminale)",
+        "C": "脊髓根 (spinal root)",
+        "D": "神經束膜 (perineuriun)"
+      },
+      "answer": "B"
+    },
+    {
+      "id": 75,
+      "question": "運動失調 (ataxia) 主要是因為腦部哪一區域受損？",
+      "options": {
+        "A": "橋腦 (pons)",
+        "B": "下視丘 (hypothalamus)",
+        "C": "小腦 (cerebellum)",
+        "D": "前額葉皮質 (prefrontal cortex)"
+      },
+      "answer": "C"
+    },
+    {
+      "id": 76,
+      "question": "交感神經中的大內臟神經 (greater splanchnic nerve) 其節前神經纖維來自下列何者？",
+      "options": {
+        "A": "頸段脊髓",
+        "B": "胸段脊髓",
+        "C": "腰段脊髓",
+        "D": "薦段脊髓"
+      },
+      "answer": "B"
+    },
+    {
+      "id": 77,
+      "question": "下列何者會導致電位過極化 (hyperpolarizing)，進而誘發抑制性突觸後電位 (inhibitory postsynaptic potential, IPSP) 的表現？",
+      "options": {
+        "A": "Cl⁻ channel open；K⁺ channel open",
+        "B": "Na⁺ channel open；K⁺ channel open",
+        "C": "Ca²⁺ channel open；K⁺ channel open",
+        "D": "Na⁺ channel open；Cl⁻ channel open"
+      },
+      "answer": "A"
+    },
+    {
+      "id": 78,
+      "question": "下列何種胺基酸與甘味 (umami) 的味覺產生有關？",
+      "options": {
+        "A": "甘胺酸 (glycine)",
+        "B": "麩胺酸 (glutamate)",
+        "C": "酪胺酸 (tyrosine)",
+        "D": "色胺酸 (tryptophan)"
+      },
+      "answer": "B"
+    },
+    {
+      "id": 79,
+      "question": "有關舌頭的敘述，下列何者錯誤？",
+      "options": {
+        "A": "味蕾也存在於舌頭以外的區域",
+        "B": "舌上的每個舌乳頭未必皆有味蕾",
+        "C": "舌下神經並不支配所有舌外在肌",
+        "D": "舌下神經並不支配所有舌內在肌"
+      },
+      "answer": "D"
+    },
+    {
+      "id": 80,
+      "question": "舌頭表面何種乳頭會角質化，嚴重時會出現舌苔？",
+      "options": {
+        "A": "絲狀乳頭",
+        "B": "蕈狀乳頭",
+        "C": "輪廓狀乳頭",
+        "D": "葉狀乳頭"
+      },
+      "answer": "A"
+    },
+    {
+      "id": 81,
+      "question": "下列何者是黃斑中央小凹為視覺最敏銳之處的原因？",
+      "options": {
+        "A": "含有最多的網膜素",
+        "B": "含有最多的視桿細胞",
+        "C": "含有最多的視紫素",
+        "D": "含有最多的視錐細胞"
+      },
+      "answer": "D"
+    },
+    {
+      "id": 82,
+      "question": "下列何者是眺望遠處時眼睛產生調節焦距的作用機轉？",
+      "options": {
+        "A": "交感神經興奮，睫狀肌鬆弛",
+        "B": "懸韌帶鬆弛，水晶體變薄",
+        "C": "懸韌帶拉緊，水晶體變厚",
+        "D": "副交感神經興奮，睫狀肌收縮"
+      },
+      "answer": "A"
+    },
+    {
+      "id": 83,
+      "question": "有關絲狀乳頭的敘述，下列何者錯誤？",
+      "options": {
+        "A": "分布在舌前 2/3",
+        "B": "大多數都含有味蕾",
+        "C": "舌乳頭中數目最多",
+        "D": "舌乳頭中體積最小"
+      },
+      "answer": "B"
+    },
+    {
+      "id": 84,
+      "question": "一般所謂的「眼睛顏色」是由何處黑色素的量所決定？",
+      "options": {
+        "A": "脈絡膜",
+        "B": "視網膜",
+        "C": "虹膜",
+        "D": "結膜"
+      },
+      "answer": "C"
+    },
+    {
+      "id": 85,
+      "question": "動態平衡感受器「嵴」 (crista) 位於內耳的：",
+      "options": {
+        "A": "球囊",
+        "B": "橢圓囊",
+        "C": "耳蝸管",
+        "D": "半規管"
+      },
+      "answer": "D"
+    },
+    {
+      "id": 86,
+      "question": "下列何者不屬於維持平衡的前庭系統？",
+      "options": {
+        "A": "半規管",
+        "B": "耳蝸",
+        "C": "橢圓囊",
+        "D": "球狀囊"
+      },
+      "answer": "B"
+    },
+    {
+      "id": 87,
+      "question": "下列何者支配會厭部位的味覺？",
+      "options": {
+        "A": "三叉神經",
+        "B": "顏面神經",
+        "C": "舌咽神經",
+        "D": "迷走神經"
+      },
+      "answer": "D"
+    },
+    {
+      "id": 88,
+      "question": "耳石復位術 (Epley maneuver) 經由改變頭部動作的方向，可以緩解良性陣發性姿勢暈眩 (benign paroxysmal positional vertigo)，此動作主要是恢復下列何者功能？",
+      "options": {
+        "A": "橢圓囊 (utricle) 與球囊 (saccule)",
+        "B": "鼓膜 (tympanic membrane)",
+        "C": "砧骨 (incus)",
+        "D": "歐氏管 (Eustachian tube)"
+      },
+      "answer": "A"
+    },
+    {
+      "id": 89,
+      "question": "血球的生命週期，下列何者最長？",
+      "options": {
+        "A": "紅血球",
+        "B": "血小板",
+        "C": "嗜中性球",
+        "D": "嗜鹼性球"
+      },
+      "answer": "A"
+    },
+    {
+      "id": 90,
+      "question": "正常情形下，白血球中數量最多與直徑最大的分別是：",
+      "options": {
+        "A": "嗜中性球與嗜酸性球",
+        "B": "嗜中性球與單核球",
+        "C": "淋巴球與嗜酸性球",
+        "D": "淋巴球與單核球"
+      },
+      "answer": "B"
+    },
+    {
+      "id": 91,
+      "question": "血漿中哪一種蛋白質最多，且具有維持血液正常滲透壓的功能？",
+      "options": {
+        "A": "白蛋白",
+        "B": "球蛋白",
+        "C": "凝血酶",
+        "D": "纖維蛋白原"
+      },
+      "answer": "A"
+    },
+    {
+      "id": 92,
+      "question": "有關紅血球的敘述，下列何者錯誤？",
+      "options": {
+        "A": "成熟的紅血球無法增生",
+        "B": "老化的紅血球可被脾臟中的庫佛氏細胞 (Kupffer's cells) 破壞",
+        "C": "生命期約 120 天",
+        "D": "能與二氧化碳結合"
+      },
+      "answer": "B"
+    },
+    {
+      "id": 93,
+      "question": "下列關於血清與血漿的敘述何者正確？",
+      "options": {
+        "A": "血清不含纖維蛋白原 (fibrinogen)",
+        "B": "血漿不含纖維蛋白原",
+        "C": "兩者皆不含纖維蛋白原",
+        "D": "兩者皆含纖維蛋白原"
+      },
+      "answer": "A"
+    },
+    {
+      "id": 94,
+      "question": "血紅素之何種成分能與氧分子結合，將氧運送到組織？",
+      "options": {
+        "A": "鈣",
+        "B": "鎂",
+        "C": "鐵",
+        "D": "鋅"
+      },
+      "answer": "C"
+    },
+    {
+      "id": 95,
+      "question": "有關紅血球的敘述，下列何者正確？",
+      "options": {
+        "A": "成熟時為雙凹圓盤狀的有核細胞",
+        "B": "生命周期有 7~9 天",
+        "C": "正常人類的紅血球數量約為 100 萬個/毫升",
+        "D": "老化的紅血球可在肝臟及脾臟中被攔截、分解"
+      },
+      "answer": "D"
+    },
+    {
+      "id": 96,
+      "question": "有關鐵代謝之敘述，下列何者正確？",
+      "options": {
+        "A": "鐵是生成血紅素與許多酵素所需，故食物中超過半數的鐵會被吸收",
+        "B": "鐵經由輔助擴散 (facilitated diffusion) 的方式，進入小腸上皮細胞",
+        "C": "鐵進入體內，會與鐵蛋白 (ferritin) 結合被儲存起來",
+        "D": "控制腸道吸收與增加尿液排除在調控人體鐵恆定時同等重要"
+      },
+      "answer": "C"
+    },
+    {
+      "id": 97,
+      "question": "一位飲食均衡的女性卻發生缺鐵性貧血，下列何者是最可能的原因？",
+      "options": {
+        "A": "紅血球生成素 (erythropoietin) 分泌不足",
+        "B": "經血 (menstrual bleeding) 量過多",
+        "C": "內在因子 (intrinsic factor) 分泌不足",
+        "D": "紅血球被瘧原蟲 (Plasmodium) 破壞過多"
+      },
+      "answer": "B"
+    },
+    {
+      "id": 98,
+      "question": "組織被感染時釋出趨化因子 (chemokines)，最先被影響的是下列哪種血球？",
+      "options": {
+        "A": "紅血球 (erythrocyte)",
+        "B": "嗜中性球 (neutrophil)",
+        "C": "T 淋巴球 (T-lymphocyte)",
+        "D": "B 淋巴球 (B-lymphocyte)"
+      },
+      "answer": "B"
+    },
+    {
+      "id": 99,
+      "question": "鑑定 ABO 血型時，準備了兩種試藥，藍色試藥含抗 A 凝集素 (agglutinin)，黃色試藥含抗 B 凝集素，將某人的血液分別與此兩種試藥混合，檢測結果顯示：血液與藍色試藥產生紅血球凝集反應，而與黃色試藥並無凝集反應產生，則此人血型為何？",
+      "options": {
+        "A": "A 型",
+        "B": "B 型",
+        "C": "AB 型",
+        "D": "O 型"
+      },
+      "answer": "A"
+    },
+    {
+      "id": 100,
+      "question": "下列哪一種免疫球蛋白 (immunoglobulin, Ig) 為初級免疫反應最先出現的抗體？",
+      "options": {
+        "A": "IgG",
+        "B": "IgM",
+        "C": "IgE",
+        "D": "IgA"
+      },
+      "answer": "B"
+    },
+    {
+      "id": 101,
+      "question": "下列何者同時供應小腸與大腸？",
+      "options": {
+        "A": "肝總動脈",
+        "B": "左胃動脈",
+        "C": "上腸繫膜動脈",
+        "D": "下腸繫膜動脈"
+      },
+      "answer": "C"
+    },
+    {
+      "id": 102,
+      "question": "當血壓升高時，頸動脈竇內的壓力接受器因應壓力變化而引發之神經衝動，會傳至何處來調節血壓的平衡？",
+      "options": {
+        "A": "大腦",
+        "B": "中腦",
+        "C": "橋腦",
+        "D": "延腦"
+      },
+      "answer": "D"
+    },
+    {
+      "id": 103,
+      "question": "下列由內皮細胞分泌的因子中，何者不會使血管舒張？",
+      "options": {
+        "A": "一氧化氮 (NO)",
+        "B": "緩激肽 (bradykinin)",
+        "C": "前列腺環素 (prostacyclin)",
+        "D": "內皮因子-1 (endothelin-1)"
+      },
+      "answer": "D"
+    },
+    {
+      "id": 104,
+      "question": "在心肌動作電位中，高原期的維持是因心肌細胞有：",
+      "options": {
+        "A": "快速鈉通道",
+        "B": "L 型鈣通道",
+        "C": "鈉鉀 ATPase",
+        "D": "T 型鈣通道"
+      },
+      "answer": "B"
+    },
+    {
+      "id": 105,
+      "question": "房室結 (atrioventricular node) 位於心臟的何處？",
+      "options": {
+        "A": "心室中隔 (interventricular septum)",
+        "B": "心房中隔 (interatrial septum)",
+        "C": "右房室瓣 (right atrioventricular valve)",
+        "D": "左房室瓣 (left atrioventricular valve)"
+      },
+      "answer": "B"
+    },
+    {
+      "id": 106,
+      "question": "心肌不會發生收縮力加成作用 (summation) 的原因，主要是下列何者？",
+      "options": {
+        "A": "心肌沒有 T 小管 (transverse tubule)",
+        "B": "心肌的不反應期時間幾乎與其收縮時間重疊",
+        "C": "心肌的動作電位不會加成",
+        "D": "心肌肌漿網 (sarcoplasmic reticulum) 不發達"
+      },
+      "answer": "B"
+    },
+    {
+      "id": 107,
+      "question": "脾臟的血液主要來自下列何者的分枝？",
+      "options": {
+        "A": "橫膈下動脈",
+        "B": "腸繫膜上動脈",
+        "C": "腸繫膜下動脈",
+        "D": "腹腔動脈幹"
+      },
+      "answer": "D"
+    },
+    {
+      "id": 108,
+      "question": "下列何者屬於彈性動脈？",
+      "options": {
+        "A": "腎動脈 (renal artery)",
+        "B": "脾動脈 (splenic artery)",
+        "C": "股動脈 (femoral artery)",
+        "D": "主動脈 (aorta)"
+      },
+      "answer": "D"
+    }
+  ]
+}

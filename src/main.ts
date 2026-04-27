@@ -1,12 +1,16 @@
 import './style.css'
 import { SUBJECTS, type Question, type Subject } from './data/questions.ts'
+import { loadAnatomySubject } from './utils/questionLoader.ts'
+
+type PageMode = 'home' | 'quiz' | 'result' | 'read'
 
 type QuizState = {
   subject: Subject | null
   questions: Question[]
   currentIndex: number
   answers: Record<string, number>
-  finished: boolean
+  pageMode: PageMode
+  quizTitle: string
 }
 
 const app = document.querySelector<HTMLDivElement>('#app')
@@ -21,8 +25,12 @@ const state: QuizState = {
   questions: [],
   currentIndex: 0,
   answers: {},
-  finished: false,
+  pageMode: 'home',
+  quizTitle: '',
 }
+let subjects: Subject[] = SUBJECTS
+let isLoadingSubjects = true
+let subjectLoadError: string | null = null
 
 function shuffle<T>(arr: T[]): T[] {
   const cloned = [...arr]
@@ -33,15 +41,16 @@ function shuffle<T>(arr: T[]): T[] {
   return cloned
 }
 
-function startQuiz(subjectId: string): void {
-  const subject = SUBJECTS.find((item) => item.id === subjectId)
+function startQuizWithQuestions(subjectId: string, questions: Question[], quizTitle: string): void {
+  const subject = subjects.find((item) => item.id === subjectId)
   if (!subject) return
 
   state.subject = subject
-  state.questions = shuffle(subject.questions)
+  state.questions = questions
   state.currentIndex = 0
   state.answers = {}
-  state.finished = false
+  state.pageMode = 'quiz'
+  state.quizTitle = quizTitle
   render()
 }
 
@@ -50,7 +59,8 @@ function resetAll(): void {
   state.questions = []
   state.currentIndex = 0
   state.answers = {}
-  state.finished = false
+  state.pageMode = 'home'
+  state.quizTitle = ''
   render()
 }
 
@@ -65,7 +75,8 @@ function retryWrongOnly(): void {
   state.questions = wrongQuestions
   state.currentIndex = 0
   state.answers = {}
-  state.finished = false
+  state.pageMode = 'quiz'
+  state.quizTitle = `${state.subject.label} - 錯題重練`
   render()
 }
 
@@ -73,7 +84,7 @@ function goNext(): void {
   if (state.currentIndex < state.questions.length - 1) {
     state.currentIndex += 1
   } else {
-    state.finished = true
+    state.pageMode = 'result'
   }
   render()
 }
@@ -98,7 +109,68 @@ function getScoreSummary(): { correct: number; total: number; wrong: number } {
   return { correct, total, wrong: total - correct }
 }
 
+function getQuarterRanges(total: number): Array<{ start: number; end: number }> {
+  const chunk = Math.ceil(total / 4)
+  return Array.from({ length: 4 }, (_, idx) => {
+    const start = idx * chunk + 1
+    const end = Math.min((idx + 1) * chunk, total)
+    return { start, end }
+  }).filter((range) => range.start <= range.end)
+}
+
+function startReadMode(subjectId: string): void {
+  const subject = subjects.find((item) => item.id === subjectId)
+  if (!subject) return
+  state.subject = subject
+  state.pageMode = 'read'
+  render()
+}
+
+function startRandom50(subjectId: string): void {
+  const subject = subjects.find((item) => item.id === subjectId)
+  if (!subject) return
+  const sampled = shuffle(subject.questions).slice(0, Math.min(50, subject.questions.length))
+  startQuizWithQuestions(subjectId, sampled, `${subject.label} - 隨機 50 題`)
+}
+
+function startQuarterQuiz(subjectId: string, quarterIndex: number): void {
+  const subject = subjects.find((item) => item.id === subjectId)
+  if (!subject) return
+  const ranges = getQuarterRanges(subject.questions.length)
+  const selectedRange = ranges[quarterIndex]
+  if (!selectedRange) return
+
+  const scoped = subject.questions.slice(selectedRange.start - 1, selectedRange.end)
+  startQuizWithQuestions(
+    subjectId,
+    shuffle(scoped),
+    `${subject.label} - ${selectedRange.start}-${selectedRange.end} 題`,
+  )
+}
+
 function renderHome(): string {
+  if (isLoadingSubjects) {
+    return `
+      <main class="container">
+        <header class="hero">
+          <h1>複習網站</h1>
+          <p>題庫載入中...</p>
+        </header>
+      </main>
+    `
+  }
+
+  if (subjectLoadError) {
+    return `
+      <main class="container">
+        <header class="hero">
+          <h1>複習網站</h1>
+          <p>題庫載入失敗：${subjectLoadError}</p>
+        </header>
+      </main>
+    `
+  }
+
   return `
     <main class="container">
       <header class="hero">
@@ -106,15 +178,68 @@ function renderHome(): string {
         <p>參考題庫練習網站概念，快速選科目、即時作答、看成績、重練錯題。</p>
       </header>
       <section class="card-list">
-        ${SUBJECTS.map(
+        ${subjects.map(
           (subject) => `
             <article class="card">
               <h2>${subject.label}</h2>
               <p>共 ${subject.questions.length} 題</p>
-              <button class="btn primary" data-action="start" data-subject="${subject.id}">開始複習</button>
+              <div class="actions">
+                <button class="btn ghost" data-action="read" data-subject="${subject.id}">題庫閱讀</button>
+                <button class="btn primary" data-action="random-50" data-subject="${subject.id}">隨機 50 題</button>
+              </div>
+              <p class="subtle">四等分測驗</p>
+              <div class="actions">
+                ${getQuarterRanges(subject.questions.length)
+                  .map(
+                    (range, idx) => `
+                    <button class="btn" data-action="quarter" data-subject="${subject.id}" data-quarter="${idx}">
+                      ${range.start}-${range.end} 題
+                    </button>
+                  `,
+                  )
+                  .join('')}
+              </div>
             </article>
           `,
         ).join('')}
+      </section>
+    </main>
+  `
+}
+
+function renderRead(): string {
+  if (!state.subject) return renderHome()
+  return `
+    <main class="container">
+      <header class="quiz-header">
+        <button class="btn ghost" data-action="home">返回首頁</button>
+        <div>
+          <h1>${state.subject.label} - 題庫閱讀</h1>
+          <p>共 ${state.subject.questions.length} 題，含答案</p>
+        </div>
+      </header>
+      <section class="read-list">
+        ${state.subject.questions
+          .map(
+            (q, idx) => `
+            <article class="card read-item">
+              <h2>Q${idx + 1}. ${q.prompt}</h2>
+              <ul>
+                ${q.options
+                  .map(
+                    (option, optionIdx) => `
+                    <li class="${q.correctIndex === optionIdx ? 'correct-option' : ''}">
+                      ${String.fromCharCode(65 + optionIdx)}. ${option}
+                    </li>
+                  `,
+                  )
+                  .join('')}
+              </ul>
+              <p class="hint">答案：${String.fromCharCode(65 + q.correctIndex)}</p>
+            </article>
+          `,
+          )
+          .join('')}
       </section>
     </main>
   `
@@ -132,7 +257,7 @@ function renderQuiz(): string {
       <header class="quiz-header">
         <button class="btn ghost" data-action="home">返回科目選擇</button>
         <div>
-          <h1>${state.subject.label}</h1>
+          <h1>${state.quizTitle || state.subject.label}</h1>
           <p>進度 ${progress}</p>
         </div>
       </header>
@@ -210,11 +335,29 @@ function renderResult(): string {
 }
 
 function bindEvents(): void {
-  const startButtons = document.querySelectorAll<HTMLButtonElement>('button[data-action="start"]')
-  startButtons.forEach((button) => {
+  const readButtons = document.querySelectorAll<HTMLButtonElement>('button[data-action="read"]')
+  readButtons.forEach((button) => {
     button.addEventListener('click', () => {
       const subjectId = button.dataset.subject
-      if (subjectId) startQuiz(subjectId)
+      if (subjectId) startReadMode(subjectId)
+    })
+  })
+
+  const randomButtons = document.querySelectorAll<HTMLButtonElement>('button[data-action="random-50"]')
+  randomButtons.forEach((button) => {
+    button.addEventListener('click', () => {
+      const subjectId = button.dataset.subject
+      if (subjectId) startRandom50(subjectId)
+    })
+  })
+
+  const quarterButtons = document.querySelectorAll<HTMLButtonElement>('button[data-action="quarter"]')
+  quarterButtons.forEach((button) => {
+    button.addEventListener('click', () => {
+      const subjectId = button.dataset.subject
+      const rawQuarter = button.dataset.quarter
+      if (!subjectId || rawQuarter === undefined) return
+      startQuarterQuiz(subjectId, Number(rawQuarter))
     })
   })
 
@@ -237,9 +380,11 @@ function bindEvents(): void {
 }
 
 function render(): void {
-  if (!state.subject) {
+  if (state.pageMode === 'home' || !state.subject) {
     root.innerHTML = renderHome()
-  } else if (state.finished) {
+  } else if (state.pageMode === 'read') {
+    root.innerHTML = renderRead()
+  } else if (state.pageMode === 'result') {
     root.innerHTML = renderResult()
   } else {
     root.innerHTML = renderQuiz()
@@ -248,4 +393,17 @@ function render(): void {
   bindEvents()
 }
 
+async function init(): Promise<void> {
+  try {
+    const anatomySubject = await loadAnatomySubject()
+    subjects = subjects.filter((item) => item.id !== anatomySubject.id).concat(anatomySubject)
+  } catch (error) {
+    subjectLoadError = error instanceof Error ? error.message : '未知錯誤'
+  } finally {
+    isLoadingSubjects = false
+    render()
+  }
+}
+
 render()
+void init()

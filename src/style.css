@@ -131,3 +131,29 @@ p {
 .wrong-item .hint {
   color: #1d4ed8;
 }
+
+.subtle {
+  font-size: 0.85rem;
+  color: #64748b;
+}
+
+.read-list {
+  display: grid;
+  gap: 12px;
+}
+
+.read-item ul {
+  margin: 0;
+  padding-left: 20px;
+  display: grid;
+  gap: 6px;
+}
+
+.read-item li {
+  color: #334155;
+}
+
+.read-item li.correct-option {
+  color: #166534;
+  font-weight: 600;
+}
