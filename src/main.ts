@@ -1,6 +1,6 @@
 import './style.css'
 import { SUBJECTS, type Question, type Subject } from './data/questions.ts'
-import { loadAnatomySubject } from './utils/questionLoader.ts'
+import { loadAnatomySubjects } from './utils/questionLoader.ts'
 
 type PageMode = 'home' | 'quiz' | 'result' | 'read'
 
@@ -138,6 +138,34 @@ function getQuarterRanges(questions: Question[]): Array<{ start: number; end: nu
   }).filter((range): range is { start: number; end: number; questions: Question[] } => range !== null)
 }
 
+function getChapterRanges(
+  questions: Question[],
+): Array<{ chapter: string; title: string; questions: Question[] }> {
+  const sorted = sortByQuestionNumber(questions)
+  const byChapter = new Map<string, { chapter: string; title: string; questions: Question[] }>()
+
+  for (const question of sorted) {
+    const chapter = question.chapter ?? ''
+    if (!chapter) continue
+    const existing = byChapter.get(chapter)
+    if (existing) {
+      existing.questions.push(question)
+    } else {
+      byChapter.set(chapter, {
+        chapter,
+        title: question.chapterTitle ?? '',
+        questions: [question],
+      })
+    }
+  }
+
+  return [...byChapter.values()].sort((a, b) => Number(a.chapter) - Number(b.chapter))
+}
+
+function usesChapterQuiz(subject: Subject): boolean {
+  return subject.id === 'anatomy-exam2'
+}
+
 function startReadMode(subjectId: string): void {
   const subject = subjects.find((item) => item.id === subjectId)
   if (!subject) return
@@ -167,6 +195,55 @@ function startQuarterQuiz(subjectId: string, quarterIndex: number): void {
   )
 }
 
+function startChapterQuiz(subjectId: string, chapterIndex: number): void {
+  const subject = subjects.find((item) => item.id === subjectId)
+  if (!subject) return
+  const ranges = getChapterRanges(subject.questions)
+  const selectedRange = ranges[chapterIndex]
+  if (!selectedRange) return
+
+  const chapterLabel = selectedRange.title
+    ? `第 ${selectedRange.chapter} 章 ${selectedRange.title}`
+    : `第 ${selectedRange.chapter} 章`
+
+  startQuizWithQuestions(subjectId, selectedRange.questions, `${subject.label} - ${chapterLabel}`)
+}
+
+function renderSegmentQuizButtons(subject: Subject): string {
+  if (usesChapterQuiz(subject)) {
+    const chapters = getChapterRanges(subject.questions)
+    return `
+              <p class="subtle">章節測驗（依序出題）</p>
+              <div class="actions">
+                ${chapters
+                  .map(
+                    (ch, idx) => `
+                    <button class="btn" data-action="chapter" data-subject="${subject.id}" data-chapter="${idx}">
+                      第 ${ch.chapter} 章 ${ch.title}（${ch.questions.length} 題）
+                    </button>
+                  `,
+                  )
+                  .join('')}
+              </div>
+              `
+  }
+
+  return `
+              <p class="subtle">四等分測驗（依序出題）</p>
+              <div class="actions">
+                ${getQuarterRanges(subject.questions)
+                  .map(
+                    (range, idx) => `
+                    <button class="btn" data-action="quarter" data-subject="${subject.id}" data-quarter="${idx}">
+                      ${range.start}-${range.end} 題
+                    </button>
+                  `,
+                  )
+                  .join('')}
+              </div>
+              `
+}
+
 function renderHome(): string {
   if (isLoadingSubjects) {
     return `
@@ -194,33 +271,29 @@ function renderHome(): string {
     <main class="container">
       <header class="hero">
         <h1>複習網站</h1>
-        <p>參考題庫練習網站概念，快速選科目、即時作答、看成績、重練錯題。</p>
+        <p>選擇考試範圍後可題庫閱讀、隨機 50 題；第一次範圍為四等分測驗，第二次範圍為章節測驗（題號為該範圍內 Q1 起算）。</p>
       </header>
       <section class="card-list">
-        ${subjects.map(
-          (subject) => `
+        ${subjects.map((subject) => {
+          const empty = subject.questions.length === 0
+          return `
             <article class="card">
               <h2>${subject.label}</h2>
               <p>共 ${subject.questions.length} 題</p>
+              ${
+                empty
+                  ? '<p class="subtle">題庫尚無題目，請匯入題目到 public/data/anatomy-exam2.json</p>'
+                  : `
               <div class="actions">
                 <button class="btn ghost" data-action="read" data-subject="${subject.id}">題庫閱讀</button>
                 <button class="btn primary" data-action="random-50" data-subject="${subject.id}">隨機 50 題</button>
               </div>
-              <p class="subtle">四等分測驗</p>
-              <div class="actions">
-                ${getQuarterRanges(subject.questions)
-                  .map(
-                    (range, idx) => `
-                    <button class="btn" data-action="quarter" data-subject="${subject.id}" data-quarter="${idx}">
-                      ${range.start}-${range.end} 題
-                    </button>
-                  `,
-                  )
-                  .join('')}
-              </div>
+              ${renderSegmentQuizButtons(subject)}
+              `
+              }
             </article>
-          `,
-        ).join('')}
+          `
+        }).join('')}
       </section>
     </main>
   `
@@ -381,6 +454,16 @@ function bindEvents(): void {
     })
   })
 
+  const chapterButtons = document.querySelectorAll<HTMLButtonElement>('button[data-action="chapter"]')
+  chapterButtons.forEach((button) => {
+    button.addEventListener('click', () => {
+      const subjectId = button.dataset.subject
+      const rawChapter = button.dataset.chapter
+      if (!subjectId || rawChapter === undefined) return
+      startChapterQuiz(subjectId, Number(rawChapter))
+    })
+  })
+
   document.querySelector<HTMLButtonElement>('button[data-action="home"]')?.addEventListener('click', resetAll)
   document.querySelector<HTMLButtonElement>('button[data-action="prev"]')?.addEventListener('click', goPrev)
   document.querySelector<HTMLButtonElement>('button[data-action="next"]')?.addEventListener('click', goNext)
@@ -415,8 +498,8 @@ function render(): void {
 
 async function init(): Promise<void> {
   try {
-    const anatomySubject = await loadAnatomySubject()
-    subjects = subjects.filter((item) => item.id !== anatomySubject.id).concat(anatomySubject)
+    const anatomySubjects = await loadAnatomySubjects()
+    subjects = subjects.filter((item) => !item.id.startsWith('anatomy-')).concat(anatomySubjects)
   } catch (error) {
     subjectLoadError = error instanceof Error ? error.message : '未知錯誤'
   } finally {

@@ -4,6 +4,8 @@ export type Question = {
   options: string[]
   correctIndex: number
   explanation: string
+  chapter?: string
+  chapterTitle?: string
 }
 
 export type Subject = {

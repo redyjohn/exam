@@ -1,0 +1,16 @@
+{
+  "scopes": [
+    {
+      "id": "exam1",
+      "label": "第一次考試範圍",
+      "bankFile": "data/anatomy.json",
+      "idPrefix": "e1"
+    },
+    {
+      "id": "exam2",
+      "label": "第二次考試範圍",
+      "bankFile": "data/anatomy-exam2.json",
+      "idPrefix": "e2"
+    }
+  ]
+}

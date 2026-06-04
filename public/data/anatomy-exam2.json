@@ -1,0 +1,929 @@
+{
+  "even_questions": [
+    {
+      "chapter": "11",
+      "title": "循環系統",
+      "number": 2,
+      "question": "下列何者同時供應小腸與大腸?",
+      "options": {
+        "A": "肝總動脈",
+        "B": "左胃動脈",
+        "C": "上腸繫膜動脈",
+        "D": "下腸繫膜動脈"
+      },
+      "answer": "C"
+    },
+    {
+      "chapter": "11",
+      "title": "循環系統",
+      "number": 4,
+      "question": "當血壓升高時,頸動脈竇內的壓力接受器因應壓力變化而引發之神經衝動,會傳至何處來調節血壓的平衡?",
+      "options": {
+        "A": "大腦",
+        "B": "中腦",
+        "C": "橋腦",
+        "D": "延腦"
+      },
+      "answer": "D"
+    },
+    {
+      "chapter": "11",
+      "title": "循環系統",
+      "number": 6,
+      "question": "下列由內皮細胞分泌的因子中,何者不會使血管舒張?",
+      "options": {
+        "A": "一氧化氮 (NO)",
+        "B": "緩激肽 (bradykinin)",
+        "C": "前列腺環素 (prostacyclin)",
+        "D": "內皮因子-1 (endothelin-1)"
+      },
+      "answer": "D"
+    },
+    {
+      "chapter": "11",
+      "title": "循環系統",
+      "number": 8,
+      "question": "在心肌動作電位中,高原期的維持是因心肌細胞有:",
+      "options": {
+        "A": "快速鈉通道",
+        "B": "L 型鈣通道",
+        "C": "鈉鉀 ATPase",
+        "D": "T 型鈣通道"
+      },
+      "answer": "B"
+    },
+    {
+      "chapter": "11",
+      "title": "循環系統",
+      "number": 10,
+      "question": "房室結 (atrioventricular node) 位於心臟的何處?",
+      "options": {
+        "A": "心室中隔 (interventricular septum)",
+        "B": "心房中隔 (interatrial septum)",
+        "C": "右房室瓣 (right atrioventricular valve)",
+        "D": "左房室瓣 (left atrioventricular valve)"
+      },
+      "answer": "B"
+    },
+    {
+      "chapter": "11",
+      "title": "循環系統",
+      "number": 12,
+      "question": "心肌不會發生收縮力加成作用 (summation) 的原因,主要是下列何者?",
+      "options": {
+        "A": "心肌沒有 T 小管 (transverse tubule)",
+        "B": "心肌的不反應期時間幾乎與其收縮時間重疊",
+        "C": "心肌的動作電位不會加成",
+        "D": "心肌肌漿網 (sarcoplasmic reticulum) 不發達"
+      },
+      "answer": "B"
+    },
+    {
+      "chapter": "11",
+      "title": "循環系統",
+      "number": 14,
+      "question": "脾臟的血液主要來自下列何者的分枝?",
+      "options": {
+        "A": "橫膈下動脈",
+        "B": "腸繫膜上動脈",
+        "C": "腸繫膜下動脈",
+        "D": "腹腔動脈幹"
+      },
+      "answer": "D"
+    },
+    {
+      "chapter": "11",
+      "title": "循環系統",
+      "number": 16,
+      "question": "下列何者屬於彈性動脈?",
+      "options": {
+        "A": "腎動脈 (renal artery)",
+        "B": "脾動脈 (splenic artery)",
+        "C": "股動脈 (femoral artery)",
+        "D": "主動脈 (aorta)"
+      },
+      "answer": "D"
+    },
+    {
+      "chapter": "12",
+      "title": "淋巴系統與免疫",
+      "number": 2,
+      "question": "下列何者不是淋巴組織？",
+      "options": {
+        "A": "扁桃體",
+        "B": "腮腺",
+        "C": "淋巴結",
+        "D": "胸腺"
+      },
+      "answer": "B"
+    },
+    {
+      "chapter": "12",
+      "title": "淋巴系統與免疫",
+      "number": 4,
+      "question": "有關淋巴結的敘述，下列何者錯誤？",
+      "options": {
+        "A": "其內沒有巨噬細胞",
+        "B": "輸出淋巴管數目較輸入淋巴管數目少",
+        "C": "具有生發中心 (germinal center)，可製造淋巴球",
+        "D": "構造上可區分為皮質及髓質"
+      },
+      "answer": "A"
+    },
+    {
+      "chapter": "12",
+      "title": "淋巴系統與免疫",
+      "number": 6,
+      "question": "當細菌侵入體內，何種血球細胞會轉變成巨噬細胞以吞噬細菌？",
+      "options": {
+        "A": "巨核細胞",
+        "B": "肥胖細胞",
+        "C": "B 淋巴球",
+        "D": "單核球"
+      },
+      "answer": "D"
+    },
+    {
+      "chapter": "12",
+      "title": "淋巴系統與免疫",
+      "number": 8,
+      "question": "下列血球何者最終成熟的位置不是在骨髓？",
+      "options": {
+        "A": "紅血球",
+        "B": "T 淋巴球",
+        "C": "嗜中性球",
+        "D": "嗜鹼性球"
+      },
+      "answer": "B"
+    },
+    {
+      "chapter": "12",
+      "title": "淋巴系統與免疫",
+      "number": 10,
+      "question": "下列何者屬於主動免疫？",
+      "options": {
+        "A": "胎兒自母體獲得抗體",
+        "B": "新生兒字母乳獲得抗體",
+        "C": "疫苗接種",
+        "D": "白喉患者注射免疫球蛋白"
+      },
+      "answer": "C"
+    },
+    {
+      "chapter": "12",
+      "title": "淋巴系統與免疫",
+      "number": 12,
+      "question": "胸管的基部位於何處？",
+      "options": {
+        "A": "胸腔下方的乳糜管",
+        "B": "腹腔下方的淋巴池",
+        "C": "腰部下方的淋巴池",
+        "D": "背部的乳糜管"
+      },
+      "answer": "B"
+    },
+    {
+      "chapter": "12",
+      "title": "淋巴系統與免疫",
+      "number": 14,
+      "question": "下列何種管腔的一端無開口？",
+      "options": {
+        "A": "微血管",
+        "B": "微淋巴管",
+        "C": "靜脈",
+        "D": "淋巴管"
+      },
+      "answer": "B"
+    },
+    {
+      "chapter": "12",
+      "title": "淋巴系統與免疫",
+      "number": 16,
+      "question": "位於口咽側壁的淋巴組織稱為：",
+      "options": {
+        "A": "腭扁桃體",
+        "B": "咽扁桃體",
+        "C": "舌扁桃體",
+        "D": "腮腺"
+      },
+      "answer": "A"
+    },
+    {
+      "chapter": "12",
+      "title": "淋巴系統與免疫",
+      "number": 18,
+      "question": "血清中的抗體屬於：",
+      "options": {
+        "A": "白蛋白",
+        "B": "球蛋白",
+        "C": "纖維蛋白",
+        "D": "醣蛋白"
+      },
+      "answer": "B"
+    },
+    {
+      "chapter": "12",
+      "title": "淋巴系統與免疫",
+      "number": 20,
+      "question": "過敏反應時，何種血球會釋出組織胺？",
+      "options": {
+        "A": "嗜中性球 (neutrophils)",
+        "B": "嗜酸性球 (eosinophils)",
+        "C": "肥大細胞 (mast cells)",
+        "D": "B 淋巴球 (B lymphocytes)"
+      },
+      "answer": "C"
+    },
+    {
+      "chapter": "13",
+      "title": "呼吸系統",
+      "number": 2,
+      "question": "二氧化碳在血液中運送的各種形式，其中比例最高的形式是下列何者？",
+      "options": {
+        "A": "氣態二氧化碳",
+        "B": "溶於血漿中之二氧化碳",
+        "C": "碳醯胺基血紅素 (carbaminohemoglobin)",
+        "D": "碳 酸氫根離子 (HCO3－)"
+      },
+      "answer": "D"
+    },
+    {
+      "chapter": "13",
+      "title": "呼吸系統",
+      "number": 4,
+      "question": "有關表面作用劑 (surfactant) 敘述，下列何者錯誤？",
+      "options": {
+        "A": "增加肺順應性 (lung compliance)",
+        "B": "穩定大肺泡，預防萎縮",
+        "C": "減少小肺泡的表面張力 (surface tension)",
+        "D": "深呼吸可增加表面作用劑分泌"
+      },
+      "answer": "B"
+    },
+    {
+      "chapter": "13",
+      "title": "呼吸系統",
+      "number": 6,
+      "question": "肺臟內進行氣體交換的呼吸膜 (respiratory membrane) 構造，主要是由哪兩種細胞與結締組織共同構成？",
+      "options": {
+        "A": "第一型肺泡細胞 (type I alveolar cell) 與第二型肺泡細胞 (type II alveolar cell)",
+        "B": "第一型肺泡細胞 (type I alveolar cell) 與微血管內皮細胞 (endothelial cell)",
+        "C": "第二型肺泡細胞 (type II alveolar cell) 與微血管內皮細胞 (endothelial cell)",
+        "D": "第二型肺泡細胞 (type II alveolar cell) 與肺泡內巨噬細胞 (alveolar macrophage)"
+      },
+      "answer": "B"
+    },
+    {
+      "chapter": "13",
+      "title": "呼吸系統",
+      "number": 8,
+      "question": "下列何者會發出滋養肺臟的支氣管動脈？",
+      "options": {
+        "A": "肺動脈",
+        "B": "肺靜脈",
+        "C": "胸主動脈",
+        "D": "胸內動脈"
+      },
+      "answer": "C"
+    },
+    {
+      "chapter": "13",
+      "title": "呼吸系統",
+      "number": 10,
+      "question": "下列有關胸膜的敘述，何者錯誤？",
+      "options": {
+        "A": "為二層結構，屬於漿膜",
+        "B": "胸膜腔內有潤滑液",
+        "C": "臟層胸膜襯在氣管壁上",
+        "D": "壁層胸膜襯在胸腔內壁上"
+      },
+      "answer": "C"
+    },
+    {
+      "chapter": "13",
+      "title": "呼吸系統",
+      "number": 12,
+      "question": "若以潮氣容積 (tidal volume) 200 毫升，呼吸頻率 40 次/分的方式持續呼吸 30 秒，會發生下列何種現象？",
+      "options": {
+        "A": "動脈二氧化碳分壓明顯下降",
+        "B": "容易產生呼吸性低氧現象",
+        "C": "血液中的氧氣總量大幅增加",
+        "D": "呈現呼吸性鹼中毒"
+      },
+      "answer": "B"
+    },
+    {
+      "chapter": "13",
+      "title": "呼吸系統",
+      "number": 14,
+      "question": "負責氣體交換之呼吸道細胞為下列哪一種？",
+      "options": {
+        "A": "嗜中性球 (neutrophil)",
+        "B": "第二型肺泡細胞 (type II alveolar cell)",
+        "C": "巨噬細胞 (macrophage)",
+        "D": "第一型肺泡細胞 (type I alveolar cell)"
+      },
+      "answer": "D"
+    },
+    {
+      "chapter": "13",
+      "title": "呼吸系統",
+      "number": 16,
+      "question": "下列有關肺部的敘述，何者正確？",
+      "options": {
+        "A": "斜裂將右肺區分為上下二葉",
+        "B": "水平裂將左肺區分為上下二葉",
+        "C": "右主支氣管較左主支氣管短、寬且較垂直，因此異物較易掉入右主支氣管",
+        "D": "肺門位於肺的肋面，有支氣管、血管、神經通過"
+      },
+      "answer": "C"
+    },
+    {
+      "chapter": "13",
+      "title": "呼吸系統",
+      "number": 18,
+      "question": "下列何者是血液中運送二氧化碳的最主要方式？",
+      "options": {
+        "A": "直接擴散",
+        "B": "直接溶解於血液中",
+        "C": "與血紅素結合",
+        "D": "轉換成碳酸氫根離子"
+      },
+      "answer": "D"
+    },
+    {
+      "chapter": "13",
+      "title": "呼吸系統",
+      "number": 20,
+      "question": "成年男性進行呼吸量測試發現肺活量 (vital capacity) 為兩公升，第一秒用力呼氣容積 (forced expiratory volume in 1s) 為 85%，此時可能為：",
+      "options": {
+        "A": "阻塞型肺病 (obstructive lung disease)",
+        "B": "限制型肺病 (restrictive lung disease)",
+        "C": "正常呼吸功能",
+        "D": "過敏性氣喘"
+      },
+      "answer": "B"
+    },
+    {
+      "chapter": "13",
+      "title": "呼吸系統",
+      "number": 22,
+      "question": "有關氣胸 (pneumothorax) 後的敘述，下列何者最適當？",
+      "options": {
+        "A": "胸膜內壓 (intrapleural pressure) 降低",
+        "B": "肺間壓 (transpulmonary pressure) 下降",
+        "C": "肺泡內壓 (alveolar pressure) 持續降低",
+        "D": "肺泡內壓 (alveolar pressure) 持續升高"
+      },
+      "answer": "B"
+    },
+    {
+      "chapter": "14",
+      "title": "消化系統",
+      "number": 2,
+      "question": "總膽管與胰管匯聚形成肝胰壺腹 (hepatopancreatic ampulla)，開口於下列何處？",
+      "options": {
+        "A": "胃的幽門部",
+        "B": "胃的賁門部",
+        "C": "十二指腸",
+        "D": "空腸"
+      },
+      "answer": "C"
+    },
+    {
+      "chapter": "14",
+      "title": "消化系統",
+      "number": 4,
+      "question": "下列何者不是由腹膜 (peritoneum) 衍生形成的構造？",
+      "options": {
+        "A": "大網膜",
+        "B": "小網膜",
+        "C": "肝圓韌帶",
+        "D": "腸繫膜"
+      },
+      "answer": "C"
+    },
+    {
+      "chapter": "14",
+      "title": "消化系統",
+      "number": 6,
+      "question": "有關脂溶性維生素的敘述，下列何者錯誤？",
+      "options": {
+        "A": "吸收不受膽汁分泌的影響",
+        "B": "包含維生素 A、D、E 與 K",
+        "C": "溶解在微膠粒 (micelle) 中",
+        "D": "在小腸中被吸收進入人體"
+      },
+      "answer": "A"
+    },
+    {
+      "chapter": "14",
+      "title": "消化系統",
+      "number": 8,
+      "question": "消化道的歐氏神經叢 (Auerbach's plexus)，主要位於下列何處？",
+      "options": {
+        "A": "黏膜層",
+        "B": "黏膜下層",
+        "C": "肌肉層",
+        "D": "漿膜層"
+      },
+      "answer": "C"
+    },
+    {
+      "chapter": "14",
+      "title": "消化系統",
+      "number": 10,
+      "question": "下列有關腸道中脂解酶 (lipase) 的敘述，下列何者正確？",
+      "options": {
+        "A": "主要由肝臟製造分泌",
+        "B": "協助乳化脂肪",
+        "C": "使乳糜微粒 (chylomicron) 分解成單酸甘油酯 (monoglyceride) 和游離脂肪酸 (free fatty acid)",
+        "D": "將三酸甘油酯 (triglyceride) 分解為單酸甘油酯和游離脂肪酸"
+      },
+      "answer": "D"
+    },
+    {
+      "chapter": "14",
+      "title": "消化系統",
+      "number": 12,
+      "question": "下列何者不屬於小腸的一部分？",
+      "options": {
+        "A": "十二指腸",
+        "B": "迴腸",
+        "C": "盲腸",
+        "D": "空腸"
+      },
+      "answer": "C"
+    },
+    {
+      "chapter": "14",
+      "title": "消化系統",
+      "number": 14,
+      "question": "下列何者位於迴腸最外層之結構？",
+      "options": {
+        "A": "漿膜層",
+        "B": "黏膜層",
+        "C": "黏膜下層",
+        "D": "肌肉層"
+      },
+      "answer": "A"
+    },
+    {
+      "chapter": "14",
+      "title": "消化系統",
+      "number": 16,
+      "question": "下列有關胃腸道神經反射的受體 (receptor) 角色，何者錯誤？",
+      "options": {
+        "A": "包括化學感受器、滲透壓感受器和機械感受器",
+        "B": "位於胃腸道管壁上",
+        "C": "將信息傳遞給中樞神經系統或腸道神經叢",
+        "D": "激活前饋路徑 (feedforward pathway)"
+      },
+      "answer": "D"
+    },
+    {
+      "chapter": "14",
+      "title": "消化系統",
+      "number": 18,
+      "question": "下列有關腮腺的敘述，何者錯誤？",
+      "options": {
+        "A": "主要位於嚼肌之內側",
+        "B": "為最大的唾液腺",
+        "C": "其導管穿過頰肌開口於口腔",
+        "D": "分泌液內含唾液澱粉酶"
+      },
+      "answer": "A"
+    },
+    {
+      "chapter": "14",
+      "title": "消化系統",
+      "number": 20,
+      "question": "下列何者為胰臟內分泌細胞與胃壁的細胞皆可分泌的物質？",
+      "options": {
+        "A": "胰蛋白酶原 (trypsinogen)",
+        "B": "澱粉酶 (amylase)",
+        "C": "胃蛋白酶原 (pepsinogen)",
+        "D": "體抑素 (somatostatin)"
+      },
+      "answer": "D"
+    },
+    {
+      "chapter": "14",
+      "title": "消化系統",
+      "number": 22,
+      "question": "有關脂肪乳化 (emulsification) 的敘述，下列何者正確？",
+      "options": {
+        "A": "腸道機械性的運動對於脂肪乳化沒有影響",
+        "B": "三酸甘油酯 (triglyceride) 經乳化作用分解為單酸甘油酯 (monoglyceride) 和游離脂肪酸 (free fatty acid)",
+        "C": "特定蛋白質經乳化作用與三酸甘油酯 (triglyceride) 產生乳糜微粒 (chylomicron)",
+        "D": "脂肪乳化需要肝臟分泌的膽鹽 (bile salt) 和 磷脂質 (phospholipid)"
+      },
+      "answer": "D"
+    },
+    {
+      "chapter": "14",
+      "title": "消化系統",
+      "number": 24,
+      "question": "下列何者為負責分泌胃酸的細胞？",
+      "options": {
+        "A": "主細胞 (chief cell)",
+        "B": "壁細胞 (parietal cell)",
+        "C": "黏液頸細胞 (mucous neck cell)",
+        "D": "腸內分泌細胞 (enteroendocrine cell)"
+      },
+      "answer": "B"
+    },
+    {
+      "chapter": "15",
+      "title": "營養與代謝",
+      "number": 2,
+      "question": "惡性貧血是因缺乏何種維生素？",
+      "options": {
+        "A": "維生素 B12",
+        "B": "維生素 B1",
+        "C": "維生素 B6",
+        "D": "維生素 C"
+      },
+      "answer": "A"
+    },
+    {
+      "chapter": "15",
+      "title": "營養與代謝",
+      "number": 4,
+      "question": "尿液中所含的尿素主要來自何物質的代謝產物？",
+      "options": {
+        "A": "核酸",
+        "B": "蛋白質",
+        "C": "葡萄糖",
+        "D": "脂肪"
+      },
+      "answer": "B"
+    },
+    {
+      "chapter": "15",
+      "title": "營養與代謝",
+      "number": 6,
+      "question": "碳水化合物經消化後，主要以何種形式被吸收？",
+      "options": {
+        "A": "多醣",
+        "B": "寡醣",
+        "C": "雙醣",
+        "D": "單醣"
+      },
+      "answer": "D"
+    },
+    {
+      "chapter": "15",
+      "title": "營養與代謝",
+      "number": 8,
+      "question": "體內有過多醣類時，會造成以下何種反應？",
+      "options": {
+        "A": "肝醣分解作用",
+        "B": "糖質新生作用",
+        "C": "蛋白質異化作用",
+        "D": "脂質合成作用"
+      },
+      "answer": "D"
+    },
+    {
+      "chapter": "15",
+      "title": "營養與代謝",
+      "number": 10,
+      "question": "控制人體產熱的中樞位於何處？",
+      "options": {
+        "A": "下視丘",
+        "B": "大腦",
+        "C": "延腦",
+        "D": "室旁核"
+      },
+      "answer": "A"
+    },
+    {
+      "chapter": "15",
+      "title": "營養與代謝",
+      "number": 12,
+      "question": "維生素 A 是何種構造的重要成分？",
+      "options": {
+        "A": "吡哆醇",
+        "B": "鈷胺",
+        "C": "輔酶 A",
+        "D": "視黃醛"
+      },
+      "answer": "D"
+    },
+    {
+      "chapter": "15",
+      "title": "營養與代謝",
+      "number": 14,
+      "question": "血糖的主要去路為何？",
+      "options": {
+        "A": "氧化分解提供能量",
+        "B": "合成肝醣",
+        "C": "轉變為其他醣類及其衍生物",
+        "D": "轉變為非糖物質"
+      },
+      "answer": "A"
+    },
+    {
+      "chapter": "15",
+      "title": "營養與代謝",
+      "number": 16,
+      "question": "一個六碳葡萄糖在糖解作用中，會淨產生幾個 ATP、CO2、H2O？",
+      "options": {
+        "A": "0、6、2",
+        "B": "2、0、2",
+        "C": "6、2、0",
+        "D": "36、6、6"
+      },
+      "answer": "B"
+    },
+    {
+      "chapter": "15",
+      "title": "營養與代謝",
+      "number": 18,
+      "question": "尿素循環中何種中間產物可代謝轉換成尿素及鳥胺酸？",
+      "options": {
+        "A": "白胺酸",
+        "B": "丙胺酸",
+        "C": "甲硫胺酸",
+        "D": "精胺酸"
+      },
+      "answer": "D"
+    },
+    {
+      "chapter": "15",
+      "title": "營養與代謝",
+      "number": 20,
+      "question": "下列何者是阿斯匹靈可以退燒的原因？",
+      "options": {
+        "A": "抑制紅血球分泌內生性致熱劑",
+        "B": "抑制延腦調高體溫的設定點",
+        "C": "抑制食物代謝的產熱作用",
+        "D": "抑制前列腺素對體溫產生的作用"
+      },
+      "answer": "D"
+    },
+    {
+      "chapter": "16",
+      "title": "泌尿系統",
+      "number": 2,
+      "question": "在腎臟的近曲小管中，鈉離子主要與下列何種物質共同運輸進入上皮細胞？",
+      "options": {
+        "A": "氫離子",
+        "B": "鈣離子",
+        "C": "葡萄糖",
+        "D": "碳酸氫根離子"
+      },
+      "answer": "C"
+    },
+    {
+      "chapter": "16",
+      "title": "泌尿系統",
+      "number": 4,
+      "question": "腎小體 (renal corpuscle) 的過濾膜 (filtration membrane)，不含下列哪一構造？",
+      "options": {
+        "A": "腎絲球血管的內皮 (glomerular endothelium)",
+        "B": "腎絲球的基底膜 (basal membrane of glomerulus)",
+        "C": "鮑氏囊的壁層 (parietal layer of Bowman's capsule)",
+        "D": "鮑氏囊的臟層 (visceral layer of Bowman's capsule)"
+      },
+      "answer": "C"
+    },
+    {
+      "chapter": "16",
+      "title": "泌尿系統",
+      "number": 6,
+      "question": "健康檢查中檢測腎功能的常用指標，下列何者正確？",
+      "options": {
+        "A": "肌酸酐",
+        "B": "菊糖",
+        "C": "葡萄糖",
+        "D": "脂肪酸"
+      },
+      "answer": "A"
+    },
+    {
+      "chapter": "16",
+      "title": "泌尿系統",
+      "number": 8,
+      "question": "下列有關人體缺血性休克後造成排尿量下降的主要原因，何者最不可能？",
+      "options": {
+        "A": "動脈壓下降",
+        "B": "腎素分泌下降",
+        "C": "出球小動脈收縮",
+        "D": "入球小動脈不收縮"
+      },
+      "answer": "B"
+    },
+    {
+      "chapter": "16",
+      "title": "泌尿系統",
+      "number": 10,
+      "question": "當每分鐘腎臟之葡萄糖過濾量大於葡萄糖之最大運輸速率 (transport maximum) 時，下列何者最可能發生？",
+      "options": {
+        "A": "糖尿",
+        "B": "寡尿",
+        "C": "血尿",
+        "D": "無尿"
+      },
+      "answer": "A"
+    },
+    {
+      "chapter": "16",
+      "title": "泌尿系統",
+      "number": 12,
+      "question": "腎小球濾液與血漿的組成，主要差異為下列何者？",
+      "options": {
+        "A": "白血球",
+        "B": "紅血球",
+        "C": "蛋白質",
+        "D": "核苯酸"
+      },
+      "answer": "C"
+    },
+    {
+      "chapter": "16",
+      "title": "泌尿系統",
+      "number": 14,
+      "question": "下列何者是由入球小動脈 (afferent arteriole) 的管壁平滑肌細胞特化形成，能分泌腎活素 (renin) 調節血壓？",
+      "options": {
+        "A": "緻密斑細胞 (macula densa cells)",
+        "B": "近腎絲球細胞 (juxtaglomerular cells)",
+        "C": "腎小球繫膜細胞 (mesangial cells)",
+        "D": "足細胞 (podocytes)"
+      },
+      "answer": "B"
+    },
+    {
+      "chapter": "16",
+      "title": "泌尿系統",
+      "number": 16,
+      "question": "有關排尿，副交感神經興奮會造成下列何種現象？",
+      "options": {
+        "A": "膀胱逼尿肌與尿道內括約肌皆收縮",
+        "B": "膀胱逼尿肌收縮，尿道內括約肌放鬆",
+        "C": "膀胱逼尿肌與尿道內括約肌皆放鬆",
+        "D": "膀胱逼尿肌放鬆，尿道內括約肌收縮"
+      },
+      "answer": "B"
+    },
+    {
+      "chapter": "16",
+      "title": "泌尿系統",
+      "number": 18,
+      "question": "有關腎素-血管張力素系統 (renin-angiotensin system) 之敘述，下列何者正確？",
+      "options": {
+        "A": "腎素可作用於血管平滑肌細胞，使血壓升高",
+        "B": "血管張力素原 (angiotensinogen) 分泌自肝臟",
+        "C": "失血可造成醛固酮 (aldosterone) 分泌減少",
+        "D": "缺水可造成血管張力素 II (angiotensin II) 生成減少"
+      },
+      "answer": "B"
+    },
+    {
+      "chapter": "16",
+      "title": "泌尿系統",
+      "number": 20,
+      "question": "腎臟 (kidney) 的何部位具有腎絲球 (glomerulus) 的構造？",
+      "options": {
+        "A": "腎皮質 (renal cortex)",
+        "B": "小腎盞 (minor calyx)",
+        "C": "腎錐體 (renal pyramid)",
+        "D": "腎乳頭 (renal papaya)"
+      },
+      "answer": "A"
+    },
+    {
+      "chapter": "16",
+      "title": "泌尿系統",
+      "number": 22,
+      "question": "下列腎臟構造中，何者最靠近腎門 (renal hilum)？",
+      "options": {
+        "A": "腎柱 (renal column)",
+        "B": "腎盂 (renal pelvis)",
+        "C": "腎盞 (renal calyx)",
+        "D": "腎錐體 (renal pyramid)"
+      },
+      "answer": "B"
+    },
+    {
+      "chapter": "16",
+      "title": "泌尿系統",
+      "number": 24,
+      "question": "下列何者不是輸尿管 (ureter) 管腔較為狹窄的位置？",
+      "options": {
+        "A": "腎盂 (renal pelvis) 與輸尿管交接處",
+        "B": "腰大肌 (psoas major) 表面",
+        "C": "髁總動脈 (common iliac artery) 分叉為髁內及髁外動脈處",
+        "D": "穿進膀胱 (urinary bladder) 處"
+      },
+      "answer": "B"
+    }
+  ],
+  "odd_questions": [
+    {
+      "chapter": "17",
+      "title": "體液、電解質與酸鹼平衡",
+      "number": 1,
+      "question": "當動脈血中之 pH ＝ 7.55、[HCO₃⁻] ＝ 44 mEq/L、PCO₂ ＝ 55 mmHg 時，最可能之情況為何？",
+      "options": {
+        "A": "呼吸性酸中毒",
+        "B": "呼吸性鹼中毒",
+        "C": "代謝性酸中毒",
+        "D": "代謝性鹼中毒"
+      },
+      "answer": "D"
+    },
+    {
+      "chapter": "17",
+      "title": "體液、電解質與酸鹼平衡",
+      "number": 3,
+      "question": "下列陰離子中，何者在細胞外液中之含量最高？",
+      "options": {
+        "A": "SO₄²⁻",
+        "B": "PO₄³⁻",
+        "C": "HCO₃⁻",
+        "D": "Cl⁻"
+      },
+      "answer": "D"
+    },
+    {
+      "chapter": "17",
+      "title": "體液、電解質與酸鹼平衡",
+      "number": 5,
+      "question": "有關血液酸鹼平衡之敘述，下列何者錯誤？",
+      "options": {
+        "A": "正常動脈血漿 pH 值 7.4",
+        "B": "動脈血漿 pH 值低於 7.4 會造成酸中毒",
+        "C": "動脈血漿 pH 值高於 7.4 會造成鹼中毒",
+        "D": "靜脈血漿 pH 值高於 7.4"
+      },
+      "answer": "D"
+    },
+    {
+      "chapter": "17",
+      "title": "體液、電解質與酸鹼平衡",
+      "number": 7,
+      "question": "一般細胞內含量最多的單價陽離子為：",
+      "options": {
+        "A": "Na⁺",
+        "B": "Rb⁺",
+        "C": "K⁺",
+        "D": "Choline"
+      },
+      "answer": "C"
+    },
+    {
+      "chapter": "17",
+      "title": "體液、電解質與酸鹼平衡",
+      "number": 9,
+      "question": "有關電解質的敘述，下列何者錯誤？",
+      "options": {
+        "A": "部分電解質為體內必要之礦物質，為細胞新陳代謝所需要",
+        "B": "在身體各區間控制水的滲透度",
+        "C": "電解質包括葡萄糖、尿素、肌酸等物質",
+        "D": "維持正常細胞活動之酸鹼平衡"
+      },
+      "answer": "C"
+    },
+    {
+      "chapter": "17",
+      "title": "體液、電解質與酸鹼平衡",
+      "number": 11,
+      "question": "由於腎臟無法排除氫離子所引發的酸鹼失衡屬於：",
+      "options": {
+        "A": "代謝性酸中毒",
+        "B": "代謝性鹼中毒",
+        "C": "呼吸性酸中毒",
+        "D": "呼吸性鹼中毒"
+      },
+      "answer": "A"
+    },
+    {
+      "chapter": "17",
+      "title": "體液、電解質與酸鹼平衡",
+      "number": 13,
+      "question": "下列何者是細胞外液最適切的 pH 值？",
+      "options": {
+        "A": "6.5",
+        "B": "7.0",
+        "C": "7.4",
+        "D": "7.5"
+      },
+      "answer": "C"
+    },
+    {
+      "chapter": "17",
+      "title": "體液、電解質與酸鹼平衡",
+      "number": 15,
+      "question": "下列何者為造成呼吸性鹼中毒的原因？",
+      "options": {
+        "A": "長期嘔吐",
+        "B": "肺換氣過度",
+        "C": "氣喘",
+        "D": "長期飢餓"
+      },
+      "answer": "B"
+    }
+  ]
+}
