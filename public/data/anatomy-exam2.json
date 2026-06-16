@@ -107,275 +107,301 @@
     {
       "chapter": "12",
       "title": "淋巴系統與免疫",
-      "number": 2,
-      "question": "下列何者不是淋巴組織？",
+      "number": 1,
+      "question": "有關淋巴循環的生理功能敘述，下列何者錯誤？",
       "options": {
-        "A": "扁桃體",
-        "B": "腮腺",
-        "C": "淋巴結",
-        "D": "胸腺"
-      },
-      "answer": "B"
-    },
-    {
-      "chapter": "12",
-      "title": "淋巴系統與免疫",
-      "number": 4,
-      "question": "有關淋巴結的敘述，下列何者錯誤？",
-      "options": {
-        "A": "其內沒有巨噬細胞",
-        "B": "輸出淋巴管數目較輸入淋巴管數目少",
-        "C": "具有生發中心 (germinal center)，可製造淋巴球",
-        "D": "構造上可區分為皮質及髓質"
+        "A": "主要回收組織液中的鉀離子",
+        "B": "運輸脂肪",
+        "C": "調節血漿和組織液之間的液體平衡",
+        "D": "清除組織中紅血球跟細菌"
       },
       "answer": "A"
     },
     {
       "chapter": "12",
       "title": "淋巴系統與免疫",
-      "number": 6,
-      "question": "當細菌侵入體內，何種血球細胞會轉變成巨噬細胞以吞噬細菌？",
+      "number": 3,
+      "question": "關於脾臟的敘述，何者正確？",
       "options": {
-        "A": "巨核細胞",
-        "B": "肥胖細胞",
-        "C": "B 淋巴球",
-        "D": "單核球"
-      },
-      "answer": "D"
-    },
-    {
-      "chapter": "12",
-      "title": "淋巴系統與免疫",
-      "number": 8,
-      "question": "下列血球何者最終成熟的位置不是在骨髓？",
-      "options": {
-        "A": "紅血球",
-        "B": "T 淋巴球",
-        "C": "嗜中性球",
-        "D": "嗜鹼性球"
-      },
-      "answer": "B"
-    },
-    {
-      "chapter": "12",
-      "title": "淋巴系統與免疫",
-      "number": 10,
-      "question": "下列何者屬於主動免疫？",
-      "options": {
-        "A": "胎兒自母體獲得抗體",
-        "B": "新生兒字母乳獲得抗體",
-        "C": "疫苗接種",
-        "D": "白喉患者注射免疫球蛋白"
+        "A": "位於右側季肋區，腎臟的上方",
+        "B": "可以分泌含多種消化酶的消化液幫助消化，屬於消化器官",
+        "C": "內有紅髓與白髓，具有儲血與免疫功能",
+        "D": "脾靜脈會先匯入腎靜脈，才匯入下腔靜脈"
       },
       "answer": "C"
     },
     {
       "chapter": "12",
       "title": "淋巴系統與免疫",
-      "number": 12,
-      "question": "胸管的基部位於何處？",
+      "number": 5,
+      "question": "蘭氏細胞 (Langerhans' cell) 主要功能為何？",
       "options": {
-        "A": "胸腔下方的乳糜管",
-        "B": "腹腔下方的淋巴池",
-        "C": "腰部下方的淋巴池",
-        "D": "背部的乳糜管"
-      },
-      "answer": "B"
-    },
-    {
-      "chapter": "12",
-      "title": "淋巴系統與免疫",
-      "number": 14,
-      "question": "下列何種管腔的一端無開口？",
-      "options": {
-        "A": "微血管",
-        "B": "微淋巴管",
-        "C": "靜脈",
-        "D": "淋巴管"
-      },
-      "answer": "B"
-    },
-    {
-      "chapter": "12",
-      "title": "淋巴系統與免疫",
-      "number": 16,
-      "question": "位於口咽側壁的淋巴組織稱為：",
-      "options": {
-        "A": "腭扁桃體",
-        "B": "咽扁桃體",
-        "C": "舌扁桃體",
-        "D": "腮腺"
+        "A": "免疫及吞噬",
+        "B": "吸收紫外線",
+        "C": "接受感覺",
+        "D": "儲存能量"
       },
       "answer": "A"
     },
     {
       "chapter": "12",
       "title": "淋巴系統與免疫",
-      "number": 18,
-      "question": "血清中的抗體屬於：",
+      "number": 7,
+      "question": "有關扁桃體的敘述，下列何者正確？",
       "options": {
-        "A": "白蛋白",
-        "B": "球蛋白",
-        "C": "纖維蛋白",
-        "D": "醣蛋白"
+        "A": "屬於中央淋巴器官",
+        "B": "位於食道與氣管交會處",
+        "C": "富含自然殺手細胞 (natural killer cells)",
+        "D": "主要參與免疫細胞的生成與分化"
       },
       "answer": "B"
     },
     {
       "chapter": "12",
       "title": "淋巴系統與免疫",
-      "number": 20,
-      "question": "過敏反應時，何種血球會釋出組織胺？",
+      "number": 9,
+      "question": "人類免疫不全病毒主要是藉由結合何種目標進入淋巴細胞？",
       "options": {
-        "A": "嗜中性球 (neutrophils)",
-        "B": "嗜酸性球 (eosinophils)",
-        "C": "肥大細胞 (mast cells)",
-        "D": "B 淋巴球 (B lymphocytes)"
+        "A": "CD4",
+        "B": "CD8",
+        "C": "CD20",
+        "D": "CD23"
       },
-      "answer": "C"
+      "answer": "A"
     },
     {
-      "chapter": "13",
-      "title": "呼吸系統",
-      "number": 2,
-      "question": "二氧化碳在血液中運送的各種形式，其中比例最高的形式是下列何者？",
+      "chapter": "12",
+      "title": "淋巴系統與免疫",
+      "number": 11,
+      "question": "第二次抗原刺激反應後，產生最多之抗體為：",
       "options": {
-        "A": "氣態二氧化碳",
-        "B": "溶於血漿中之二氧化碳",
-        "C": "碳醯胺基血紅素 (carbaminohemoglobin)",
-        "D": "碳 酸氫根離子 (HCO3－)"
+        "A": "IgG",
+        "B": "IgM",
+        "C": "IgE",
+        "D": "IgD"
+      },
+      "answer": "B"
+    },
+    {
+      "chapter": "12",
+      "title": "淋巴系統與免疫",
+      "number": 13,
+      "question": "含鎳成分的手錶帶能引起何種過敏反應？",
+      "options": {
+        "A": "第一型",
+        "B": "第二型",
+        "C": "第三型",
+        "D": "第四型"
       },
       "answer": "D"
     },
     {
-      "chapter": "13",
-      "title": "呼吸系統",
-      "number": 4,
-      "question": "有關表面作用劑 (surfactant) 敘述，下列何者錯誤？",
+      "chapter": "12",
+      "title": "淋巴系統與免疫",
+      "number": 15,
+      "question": "在正常生理狀況下，下列何者是血液中已分化成熟並可迅速吞噬細菌的白血球？",
       "options": {
-        "A": "增加肺順應性 (lung compliance)",
-        "B": "穩定大肺泡，預防萎縮",
-        "C": "減少小肺泡的表面張力 (surface tension)",
-        "D": "深呼吸可增加表面作用劑分泌"
-      },
-      "answer": "B"
-    },
-    {
-      "chapter": "13",
-      "title": "呼吸系統",
-      "number": 6,
-      "question": "肺臟內進行氣體交換的呼吸膜 (respiratory membrane) 構造，主要是由哪兩種細胞與結締組織共同構成？",
-      "options": {
-        "A": "第一型肺泡細胞 (type I alveolar cell) 與第二型肺泡細胞 (type II alveolar cell)",
-        "B": "第一型肺泡細胞 (type I alveolar cell) 與微血管內皮細胞 (endothelial cell)",
-        "C": "第二型肺泡細胞 (type II alveolar cell) 與微血管內皮細胞 (endothelial cell)",
-        "D": "第二型肺泡細胞 (type II alveolar cell) 與肺泡內巨噬細胞 (alveolar macrophage)"
-      },
-      "answer": "B"
-    },
-    {
-      "chapter": "13",
-      "title": "呼吸系統",
-      "number": 8,
-      "question": "下列何者會發出滋養肺臟的支氣管動脈？",
-      "options": {
-        "A": "肺動脈",
-        "B": "肺靜脈",
-        "C": "胸主動脈",
-        "D": "胸內動脈"
-      },
-      "answer": "C"
-    },
-    {
-      "chapter": "13",
-      "title": "呼吸系統",
-      "number": 10,
-      "question": "下列有關胸膜的敘述，何者錯誤？",
-      "options": {
-        "A": "為二層結構，屬於漿膜",
-        "B": "胸膜腔內有潤滑液",
-        "C": "臟層胸膜襯在氣管壁上",
-        "D": "壁層胸膜襯在胸腔內壁上"
-      },
-      "answer": "C"
-    },
-    {
-      "chapter": "13",
-      "title": "呼吸系統",
-      "number": 12,
-      "question": "若以潮氣容積 (tidal volume) 200 毫升，呼吸頻率 40 次/分的方式持續呼吸 30 秒，會發生下列何種現象？",
-      "options": {
-        "A": "動脈二氧化碳分壓明顯下降",
-        "B": "容易產生呼吸性低氧現象",
-        "C": "血液中的氧氣總量大幅增加",
-        "D": "呈現呼吸性鹼中毒"
-      },
-      "answer": "B"
-    },
-    {
-      "chapter": "13",
-      "title": "呼吸系統",
-      "number": 14,
-      "question": "負責氣體交換之呼吸道細胞為下列哪一種？",
-      "options": {
-        "A": "嗜中性球 (neutrophil)",
-        "B": "第二型肺泡細胞 (type II alveolar cell)",
+        "A": "淋巴球 (lymphocyte)",
+        "B": "嗜中性球 (neutrophil)",
         "C": "巨噬細胞 (macrophage)",
-        "D": "第一型肺泡細胞 (type I alveolar cell)"
+        "D": "單核球 (monocyte)"
       },
-      "answer": "D"
+      "answer": "B"
+    },
+    {
+      "chapter": "12",
+      "title": "淋巴系統與免疫",
+      "number": 17,
+      "question": "下列何者不是脾臟的功能？",
+      "options": {
+        "A": "具有免疫的功能",
+        "B": "靜脈竇能儲存血液",
+        "C": "胚胎時期是造血器官",
+        "D": "能幫助脂肪消化"
+      },
+      "answer": "A"
+    },
+    {
+      "chapter": "12",
+      "title": "淋巴系統與免疫",
+      "number": 19,
+      "question": "B 淋巴球 (B lymphocyte) 主要分布在何處？",
+      "options": {
+        "A": "腎上腺",
+        "B": "淋巴結",
+        "C": "胸腺",
+        "D": "甲狀腺"
+      },
+      "answer": "B"
+    },
+    {
+      "chapter": "12",
+      "title": "淋巴系統與免疫",
+      "number": 21,
+      "question": "淋巴液是在何處匯入靜脈？",
+      "options": {
+        "A": "頸內靜脈與鎖骨下靜脈交會處",
+        "B": "頭靜脈與腋靜脈交會處",
+        "C": "左、右頭臂靜脈交會處",
+        "D": "左、右肋間靜脈交會處"
+      },
+      "answer": "A"
     },
     {
       "chapter": "13",
       "title": "呼吸系統",
-      "number": 16,
-      "question": "下列有關肺部的敘述，何者正確？",
+      "number": 1,
+      "question": "肺臟內的哪一構造，只具有傳送氣體的導管功用，但是不具備氣體交換的功能？",
       "options": {
-        "A": "斜裂將右肺區分為上下二葉",
-        "B": "水平裂將左肺區分為上下二葉",
-        "C": "右主支氣管較左主支氣管短、寬且較垂直，因此異物較易掉入右主支氣管",
-        "D": "肺門位於肺的肋面，有支氣管、血管、神經通過"
+        "A": "肺泡囊 (alveolar sac)",
+        "B": "肺泡管 (alveolar duct)",
+        "C": "終末細支氣管 (terminal bronchiole)",
+        "D": "呼吸性細支氣管 (respiratory bronchiole)"
       },
       "answer": "C"
     },
     {
       "chapter": "13",
       "title": "呼吸系統",
-      "number": 18,
-      "question": "下列何者是血液中運送二氧化碳的最主要方式？",
+      "number": 3,
+      "question": "下列何者不通過肺門？",
       "options": {
-        "A": "直接擴散",
-        "B": "直接溶解於血液中",
-        "C": "與血紅素結合",
-        "D": "轉換成碳酸氫根離子"
+        "A": "胸管",
+        "B": "肺動脈",
+        "C": "肺靜脈",
+        "D": "主支氣管"
+      },
+      "answer": "A"
+    },
+    {
+      "chapter": "13",
+      "title": "呼吸系統",
+      "number": 5,
+      "question": "造成氧合解離曲線 (oxygen-hemoglobin dissociation curve) 向左偏移，下列何者正確？",
+      "options": {
+        "A": "增加 2,3-雙磷甘油 (2,3-diphosphoglycerate)",
+        "B": "增加體溫",
+        "C": "增加代謝",
+        "D": "升高 pH 值"
       },
       "answer": "D"
     },
     {
       "chapter": "13",
       "title": "呼吸系統",
-      "number": 20,
-      "question": "成年男性進行呼吸量測試發現肺活量 (vital capacity) 為兩公升，第一秒用力呼氣容積 (forced expiratory volume in 1s) 為 85%，此時可能為：",
+      "number": 7,
+      "question": "下列支氣管樹的分支，何者具有氣體交換功能？",
       "options": {
-        "A": "阻塞型肺病 (obstructive lung disease)",
-        "B": "限制型肺病 (restrictive lung disease)",
-        "C": "正常呼吸功能",
-        "D": "過敏性氣喘"
+        "A": "葉支氣管",
+        "B": "節支氣管",
+        "C": "終末細支氣管",
+        "D": "呼吸性細支氣管"
+      },
+      "answer": "D"
+    },
+    {
+      "chapter": "13",
+      "title": "呼吸系統",
+      "number": 9,
+      "question": "下列有關人體在高海拔地區之生理調適反應，何者正確？",
+      "options": {
+        "A": "2,3-雙磷甘油 (2,3-diphosphoglycerate) 減少",
+        "B": "肌肉中血管的密度降低",
+        "C": "刺激周邊化學接受器 (peripheral chemoreceptor) 促進換氣",
+        "D": "腎臟促紅細胞生成素 (erythropoietin) 分泌降低"
+      },
+      "answer": "C"
+    },
+    {
+      "chapter": "13",
+      "title": "呼吸系統",
+      "number": 11,
+      "question": "與正常人相比較，部分呼吸道狹窄的患者，其第一秒內用力呼氣體積 (forced expiratory volume at the first second) 與用力呼氣肺活量 (forced vital capacity) 之改變，下列何者正確？",
+      "options": {
+        "A": "二者變化均不顯著",
+        "B": "前者減少，但後者變化不顯著",
+        "C": "前者變化不顯著，但後者減少",
+        "D": "二者均顯著減少"
       },
       "answer": "B"
     },
     {
       "chapter": "13",
       "title": "呼吸系統",
-      "number": 22,
-      "question": "有關氣胸 (pneumothorax) 後的敘述，下列何者最適當？",
+      "number": 13,
+      "question": "肺部的哪一種細胞，主要負責分泌表面張力劑 (surfactant)，可以降低肺泡內的表面張力，避免肺泡塌陷？",
       "options": {
-        "A": "胸膜內壓 (intrapleural pressure) 降低",
-        "B": "肺間壓 (transpulmonary pressure) 下降",
-        "C": "肺泡內壓 (alveolar pressure) 持續降低",
-        "D": "肺泡內壓 (alveolar pressure) 持續升高"
+        "A": "微血管內皮細胞 (endothelial cell)",
+        "B": "第一型肺泡細胞 (type I alveolar cell)",
+        "C": "第二型肺泡細胞 (type II alveolar cell)",
+        "D": "肺泡內巨噬細胞 (alveolar macrophage)"
+      },
+      "answer": "C"
+    },
+    {
+      "chapter": "13",
+      "title": "呼吸系統",
+      "number": 15,
+      "question": "下列何者最不容易使氧合血紅素解離曲線 (oxygen-hemoglobin dissociation curve) 右移？",
+      "options": {
+        "A": "血液中 pH 值增加",
+        "B": "血液中氫離子濃度增加",
+        "C": "核心體溫上升",
+        "D": "血液中二氧化碳濃度增加"
+      },
+      "answer": "A"
+    },
+    {
+      "chapter": "13",
+      "title": "呼吸系統",
+      "number": 17,
+      "question": "下列何者可產生表面活性劑 (surfactant) ？",
+      "options": {
+        "A": "第二型肺泡細胞",
+        "B": "結締組織",
+        "C": "氣管的上皮細胞",
+        "D": "黏膜細胞"
+      },
+      "answer": "A"
+    },
+    {
+      "chapter": "13",
+      "title": "呼吸系統",
+      "number": 19,
+      "question": "若潮氣容積 (tidal volume) 為 450 毫升，解剖性死腔為 150 毫升，每分鐘的呼吸頻率為 12 次，則每分鐘的肺泡通氣量為多少毫升？",
+      "options": {
+        "A": "1,800",
+        "B": "3,600",
+        "C": "5,400",
+        "D": "7,200"
       },
       "answer": "B"
+    },
+    {
+      "chapter": "13",
+      "title": "呼吸系統",
+      "number": 21,
+      "question": "聲帶 (vocal cord) 的前方連結在甲狀軟骨，請問後方連結在哪一塊軟骨？",
+      "options": {
+        "A": "會厭軟骨 (epiglottis)",
+        "B": "環狀軟骨 (cricoid cartilage)",
+        "C": "杓狀軟骨 (arytenoid cartilage)",
+        "D": "楔狀軟骨 (cuneiform cartilage)"
+      },
+      "answer": "C"
+    },
+    {
+      "chapter": "13",
+      "title": "呼吸系統",
+      "number": 23,
+      "question": "肺氣腫 (emphysema) 患者因肺泡壁遭到破壞而容易出現下列哪一種變化？",
+      "options": {
+        "A": "肺泡氣體擴散的總面積增加",
+        "B": "肺臟回彈力增加",
+        "C": "肺臟順應性增加",
+        "D": "呼吸道阻力降低"
+      },
+      "answer": "C"
     },
     {
       "chapter": "14",
@@ -433,7 +459,7 @@
       "chapter": "14",
       "title": "消化系統",
       "number": 10,
-      "question": "下列有關腸道中脂解酶 (lipase) 的敘述，下列何者正確？",
+      "question": "有關腸道中脂解酶 (lipase) 的敘述，下列何者正確？",
       "options": {
         "A": "主要由肝臟製造分泌",
         "B": "協助乳化脂肪",
@@ -459,7 +485,7 @@
       "chapter": "14",
       "title": "消化系統",
       "number": 14,
-      "question": "下列何者位於迴腸最外層之結構？",
+      "question": "下列何者是位於迴腸最外層之結構？",
       "options": {
         "A": "漿膜層",
         "B": "黏膜層",
@@ -474,7 +500,7 @@
       "number": 16,
       "question": "下列有關胃腸道神經反射的受體 (receptor) 角色，何者錯誤？",
       "options": {
-        "A": "包括化學感受器、滲透壓感受器和機械感受器",
+        "A": "包括化學感受器、滲透壓感受器 and 機械感受器",
         "B": "位於胃腸道管壁上",
         "C": "將信息傳遞給中樞神經系統或腸道神經叢",
         "D": "激活前饋路徑 (feedforward pathway)"
@@ -737,7 +763,7 @@
         "A": "白血球",
         "B": "紅血球",
         "C": "蛋白質",
-        "D": "核苯酸"
+        "D": "核苷酸"
       },
       "answer": "C"
     },
@@ -815,15 +841,13 @@
         "A": "腎盂 (renal pelvis) 與輸尿管交接處",
         "B": "腰大肌 (psoas major) 表面",
         "C": "髁總動脈 (common iliac artery) 分叉為髁內及髁外動脈處",
-        "D": "穿進膀胱 (urinary bladder) 處"
+        "D": "穿進膀胱 (urinary bladder)處"
       },
       "answer": "B"
-    }
-  ],
-  "odd_questions": [
+    },
     {
       "chapter": "17",
-      "title": "體液、電解質與酸鹼平衡",
+      "title": "體液電解質與酸鹼平衡",
       "number": 1,
       "question": "當動脈血中之 pH ＝ 7.55、[HCO₃⁻] ＝ 44 mEq/L、PCO₂ ＝ 55 mmHg 時，最可能之情況為何？",
       "options": {
@@ -836,7 +860,7 @@
     },
     {
       "chapter": "17",
-      "title": "體液、電解質與酸鹼平衡",
+      "title": "體液電解質與酸鹼平衡",
       "number": 3,
       "question": "下列陰離子中，何者在細胞外液中之含量最高？",
       "options": {
@@ -849,7 +873,7 @@
     },
     {
       "chapter": "17",
-      "title": "體液、電解質與酸鹼平衡",
+      "title": "體液電解質與酸鹼平衡",
       "number": 5,
       "question": "有關血液酸鹼平衡之敘述，下列何者錯誤？",
       "options": {
@@ -862,7 +886,7 @@
     },
     {
       "chapter": "17",
-      "title": "體液、電解質與酸鹼平衡",
+      "title": "體液電解質與酸鹼平衡",
       "number": 7,
       "question": "一般細胞內含量最多的單價陽離子為：",
       "options": {
@@ -875,7 +899,7 @@
     },
     {
       "chapter": "17",
-      "title": "體液、電解質與酸鹼平衡",
+      "title": "體液電解質與酸鹼平衡",
       "number": 9,
       "question": "有關電解質的敘述，下列何者錯誤？",
       "options": {
@@ -888,7 +912,7 @@
     },
     {
       "chapter": "17",
-      "title": "體液、電解質與酸鹼平衡",
+      "title": "體液電解質與酸鹼平衡",
       "number": 11,
       "question": "由於腎臟無法排除氫離子所引發的酸鹼失衡屬於：",
       "options": {
@@ -901,7 +925,7 @@
     },
     {
       "chapter": "17",
-      "title": "體液、電解質與酸鹼平衡",
+      "title": "體液電解質與酸鹼平衡",
       "number": 13,
       "question": "下列何者是細胞外液最適切的 pH 值？",
       "options": {
@@ -914,7 +938,7 @@
     },
     {
       "chapter": "17",
-      "title": "體液、電解質與酸鹼平衡",
+      "title": "體液電解質與酸鹼平衡",
       "number": 15,
       "question": "下列何者為造成呼吸性鹼中毒的原因？",
       "options": {
@@ -924,6 +948,448 @@
         "D": "長期飢餓"
       },
       "answer": "B"
+    },
+    {
+      "chapter": "18",
+      "title": "內分泌系統",
+      "number": 2,
+      "question": "有關紅血球生成素 (erythropoietin) 的分泌與作用，下列哪些敘述正確？ (1) 缺氧時會分泌減少 (2) 主要在腎臟合成分泌 (3) 可促進紅血球之生成 (4) 主要標的器官為紅骨髓。",
+      "options": {
+        "A": "(1)(2)(3)",
+        "B": "(1)(3)(4)",
+        "C": "(2)(3)(4)",
+        "D": "(1)(2)(4)"
+      },
+      "answer": "C"
+    },
+    {
+      "chapter": "18",
+      "title": "內分泌系統",
+      "number": 4,
+      "question": "腦下垂體細胞 HE 染色的特性與其功能的敘述，下列何者錯誤？",
+      "options": {
+        "A": "嗜酸性細胞分泌促腎上腺皮質素 (adrenocorticotropic hormone)",
+        "B": "無顆粒難染細胞 (chromophobes) 分泌促腎上腺皮質素 (adrenocorticotropic hormone)",
+        "C": "嗜鹼性細胞分泌促甲狀腺素 (thyroid-stimulating hormone)",
+        "D": "嗜鹼性細胞分泌濾泡刺激素 (follicle-stimulating hormone)"
+      },
+      "answer": "A"
+    },
+    {
+      "chapter": "18",
+      "title": "內分泌系統",
+      "number": 6,
+      "question": "下列何種激素最可能造成血管平滑肌的收縮？",
+      "options": {
+        "A": "醛固酮 (aldosterone)",
+        "B": "副甲狀腺素 (PTH)",
+        "C": "抗利尿激素 (ADH)",
+        "D": "多巴胺 (dopamine)"
+      },
+      "answer": "C"
+    },
+    {
+      "chapter": "18",
+      "title": "內分泌系統",
+      "number": 8,
+      "question": "低血鈣主要會刺激哪一個內分泌腺體的激素分泌，以增加血鈣濃度？",
+      "options": {
+        "A": "下視丘",
+        "B": "副甲狀腺",
+        "C": "腦下垂體前葉",
+        "D": "腦下垂體後葉"
+      },
+      "answer": "B"
+    },
+    {
+      "chapter": "18",
+      "title": "內分泌系統",
+      "number": 10,
+      "question": "葛瑞夫氏症 (Graves' disease) 的患者，血漿中何種物質濃度會下降？",
+      "options": {
+        "A": "甲狀腺素 (T4)",
+        "B": "甲狀腺刺激素 (TSH)",
+        "C": "雙碘酪胺酸 (DIT)",
+        "D": "三碘甲狀腺素 (T3)"
+      },
+      "answer": "B"
+    },
+    {
+      "chapter": "18",
+      "title": "內分泌系統",
+      "number": 12,
+      "question": "下列何種類型的病人，會有促腎上腺皮質素 (ACTH) 大量分泌的情況？",
+      "options": {
+        "A": "愛迪生氏症 (Addison's disease)",
+        "B": "接受糖皮質固酮 (glucocorticoid) 治療",
+        "C": "原發性腎上腺皮質增生症",
+        "D": "血管張力素 II (angiotensin II) 分泌過多"
+      },
+      "answer": "A"
+    },
+    {
+      "chapter": "18",
+      "title": "內分泌系統",
+      "number": 14,
+      "question": "松果腺 (pineal gland) 位於何處？",
+      "options": {
+        "A": "第三腦室底部",
+        "B": "第三腦室頂部",
+        "C": "第四腦室底部",
+        "D": "第四腦室頂部"
+      },
+      "answer": "B"
+    },
+    {
+      "chapter": "18",
+      "title": "內分泌系統",
+      "number": 16,
+      "question": "下列何者是膽固醇的衍生物？",
+      "options": {
+        "A": "腎上腺素",
+        "B": "甲狀腺素",
+        "C": "胰島素",
+        "D": "醣皮質素"
+      },
+      "answer": "D"
+    },
+    {
+      "chapter": "18",
+      "title": "內分泌系統",
+      "number": 18,
+      "question": "下列何種器官不釋放內分泌激素？",
+      "options": {
+        "A": "心臟",
+        "B": "腎臟",
+        "C": "脾臟",
+        "D": "胃"
+      },
+      "answer": "C"
+    },
+    {
+      "chapter": "18",
+      "title": "內分泌系統",
+      "number": 20,
+      "question": "下列何者分泌不足可能導致呆小症 (cretinism)？",
+      "options": {
+        "A": "甲狀腺素 (thyroxine)",
+        "B": "生長激素 (growth hormone)",
+        "C": "胰島素 (insulin)",
+        "D": "濾泡刺激素 (follicle-stimulating hormone)"
+      },
+      "answer": "A"
+    },
+    {
+      "chapter": "18",
+      "title": "內分泌系統",
+      "number": 22,
+      "question": "下列有關褪黑激素 (melatonin) 的敘述，何者錯誤？",
+      "options": {
+        "A": "可由松果腺 (pineal gland) 分泌",
+        "B": "血清素 (serotonin) 為其前驅物",
+        "C": "夜晚睡眠時體內之濃度最低",
+        "D": "可治療時差所造成的不適"
+      },
+      "answer": "C"
+    },
+    {
+      "chapter": "18",
+      "title": "內分泌系統",
+      "number": 24,
+      "question": "在人類胚胎期，下列何種激素最可能直接刺激外生殖構造發育為男性？",
+      "options": {
+        "A": "Camp (testosterone)",
+        "B": "雙氫睪固酮 (DHT)",
+        "C": "雌激素 (estrogen)",
+        "D": "去氫雄脂酮 (DHEA)"
+      },
+      "answer": "B"
+    },
+    {
+      "chapter": "19",
+      "title": "生殖系統",
+      "number": 2,
+      "question": "下列何者包覆陰蒂 (clitoris)，形成陰蒂的包皮 (prepuce of clitoris)？",
+      "options": {
+        "A": "陰阜 (mons pubis)",
+        "B": "大陰唇 (labia majora)",
+        "C": "小陰唇 (labia minora)",
+        "D": "陰道前庭 (vaginal vestibule)"
+      },
+      "answer": "C"
+    },
+    {
+      "chapter": "19",
+      "title": "生殖系統",
+      "number": 4,
+      "question": "12 歲的王同學因為外傷造成兩側睪丸嚴重受損被迫切除，下列何者為手術後的生理變化？",
+      "options": {
+        "A": "聲音變得低沉且毛髮增生",
+        "B": "血液中黃體生成素 (LH) 濃度上升",
+        "C": "血液中睪固酮 (testosterone) 濃度上升",
+        "D": "尿液中雄性素 (androgen) 濃度上升"
+      },
+      "answer": "B"
+    },
+    {
+      "chapter": "19",
+      "title": "生殖系統",
+      "number": 6,
+      "question": "有關促進睪固酮分泌之敘述，下列何者正確？",
+      "options": {
+        "A": "濾泡刺激素 (FSH) 直接作用於萊氏細胞 (Leydig cell)",
+        "B": "黃體刺激素 (LH) 直接作用於賽氏細胞 (Sertoli cell)",
+        "C": "促性腺素釋放激素 (GnRH) 間接作用於萊氏細胞 (Leydig cell)",
+        "D": "抑制素 (inhibin) 間接作用於賽氏細胞 (Sertoli cell)"
+      },
+      "answer": "C"
+    },
+    {
+      "chapter": "19",
+      "title": "生殖系統",
+      "number": 8,
+      "question": "有關前列腺的敘述，下列何者錯誤？",
+      "options": {
+        "A": "位於膀胱下方",
+        "B": "位於泌尿生殖橫膈上方",
+        "C": "位於直腸後方",
+        "D": "位於精囊下方"
+      },
+      "answer": "C"
+    },
+    {
+      "chapter": "19",
+      "title": "生殖系統",
+      "number": 10,
+      "question": "卵巢排卵 (ovulation)時，卵母細胞 (oocyte) 的減數分裂 (meiosis)，停留在哪一時期？",
+      "options": {
+        "A": "第一次減數分裂的中期 (metaphase of meiosis I)",
+        "B": "第一次減數分裂的末期 (telophase of meiosis I)",
+        "C": "第二次減數分裂的中期 (metaphase of meiosis II)",
+        "D": "第二次減數分裂的末期 (telophase of meiosis II)"
+      },
+      "answer": "C"
+    },
+    {
+      "chapter": "19",
+      "title": "生殖系統",
+      "number": 12,
+      "question": "在排卵後一天，與排卵日相比，下列何種激素在血中的濃度不會下降？",
+      "options": {
+        "A": "濾泡刺激素 (FSH)",
+        "B": "黃體生成素 (LH)",
+        "C": "動情激素 (estrogen)",
+        "D": "黃體激素 (progesterone)"
+      },
+      "answer": "D"
+    },
+    {
+      "chapter": "19",
+      "title": "生殖系統",
+      "number": 14,
+      "question": "女性會陰部的三個構造，由前往後的排序為何？ (1) 陰蒂 (2) 外尿道口 (3) 陰道口。",
+      "options": {
+        "A": "(1)(2)(3)",
+        "B": "(1)(3)(2)",
+        "C": "(2)(1)(3)",
+        "D": "(2)(3)(1)"
+      },
+      "answer": "A"
+    },
+    {
+      "chapter": "19",
+      "title": "生殖系統",
+      "number": 16,
+      "question": "男性生殖構造中何者具有肉膜肌 (dartos muscle)？",
+      "options": {
+        "A": "陰莖 (penis)",
+        "B": "陰囊 (scrotum)",
+        "C": "副睪 (epididymis)",
+        "D": "精索 (spermatic cord)"
+      },
+      "answer": "B"
+    },
+    {
+      "chapter": "19",
+      "title": "生殖系統",
+      "number": 18,
+      "question": "下列何種原因抑制懷孕時乳汁的製造？",
+      "options": {
+        "A": "泌乳素 (prolactin) 濃度過低，不足以刺激乳腺",
+        "B": "人類胎盤泌乳素 (human placental lactogen) 過低",
+        "C": "多巴胺 (dopamine) 抑制腦下腺合成泌乳素",
+        "D": "雌激素 (estrogen) 與黃體素 (progesterone) 濃度高"
+      },
+      "answer": "D"
+    },
+    {
+      "chapter": "19",
+      "title": "生殖系統",
+      "number": 20,
+      "question": "下列何者是由數層濾泡細胞及有液體之濾泡腔組成，其內並包含一個初級卵母細胞？",
+      "options": {
+        "A": "原始濾泡 (primordial follicle)",
+        "B": "葛氏濾泡 (Graafian follicle)",
+        "C": "初級濾泡 (primary follicle)",
+        "D": "次級濾泡 (secondary follicle)"
+      },
+      "answer": "D"
+    },
+    {
+      "chapter": "19",
+      "title": "生殖系統",
+      "number": 22,
+      "question": "有關女性外生殖器 (vulva) 的敘述，下列何者錯誤？",
+      "options": {
+        "A": "前庭球 (bulb of vestibule) 是位於陰道口兩側的腺體",
+        "B": "尿道外口 (external urethral orifice) 介於陰蒂與陰道口之間",
+        "C": "陰蒂包皮 (prepuce) 是連接兩側小陰唇的皮膚皺褶",
+        "D": "陰道前庭 (vaginal vestibule) 是介於兩側小陰唇之間的區域"
+      },
+      "answer": "C"
+    },
+    {
+      "chapter": "19",
+      "title": "生殖系統",
+      "number": 24,
+      "question": "下列何者不具支撐子宮 (uterus) 的功能？",
+      "options": {
+        "A": "主韌帶 (cardinal ligament)",
+        "B": "懸韌帶 (suspensory ligament)",
+        "C": "骨盆膈 (pelvic diaphragm)",
+        "D": "泌尿生殖膈 (urogenital diaphragm)"
+      },
+      "answer": "B"
+    },
+    {
+      "chapter": "20",
+      "title": "發育解剖學",
+      "number": 1,
+      "question": "受精作用通常會發生在輸卵管的哪一部位？",
+      "options": {
+        "A": "繖部",
+        "B": "壺腹部",
+        "C": "峽部",
+        "D": "子宮部"
+      },
+      "answer": "B"
+    },
+    {
+      "chapter": "20",
+      "title": "發育解剖學",
+      "number": 3,
+      "question": "下列哪一種激素可以作為驗孕的指標？",
+      "options": {
+        "A": "濾泡刺激素",
+        "B": "黃體刺激素",
+        "C": "黃體素",
+        "D": "人類絨毛膜促性腺激素"
+      },
+      "answer": "D"
+    },
+    {
+      "chapter": "20",
+      "title": "發育解剖學",
+      "number": 5,
+      "question": "中樞神經系統的腦部與脊髓是衍生自哪一胚層？",
+      "options": {
+        "A": "外胚層",
+        "B": "中胚層",
+        "C": "內胚層"
+      },
+      "answer": "A"
+    },
+    {
+      "chapter": "20",
+      "title": "發育解剖學",
+      "number": 7,
+      "question": "胚胎受精後大約第幾天，發育出的心臟會開始跳動？",
+      "options": {
+        "A": "7",
+        "B": "14",
+        "C": "21",
+        "D": "28"
+      },
+      "answer": "C"
+    },
+    {
+      "chapter": "20",
+      "title": "發育解剖學",
+      "number": 9,
+      "question": "胚胎發育至第幾週時，便可以從生殖器的外觀分辨胎兒的性別？",
+      "options": {
+        "A": "8",
+        "B": "10",
+        "C": "12",
+        "D": "14"
+      },
+      "answer": "C"
+    },
+    {
+      "chapter": "20",
+      "title": "發育解剖學",
+      "number": 11,
+      "question": "下列何者不是由胚胎的組織細胞所衍生形成？",
+      "options": {
+        "A": "羊膜",
+        "B": "臍帶",
+        "C": "絨毛膜",
+        "D": "蛻膜"
+      },
+      "answer": "D"
+    },
+    {
+      "chapter": "20",
+      "title": "發育解剖學",
+      "number": 13,
+      "question": "輸尿管、輸精管等上皮是由胚胎的何處分化而來？",
+      "options": {
+        "A": "內胚層",
+        "B": "中胚層",
+        "C": "外胚層",
+        "D": "滋養層"
+      },
+      "answer": "B"
+    },
+    {
+      "chapter": "20",
+      "title": "發育解剖學",
+      "number": 15,
+      "question": "孕婦超音波檢查結果：胎兒的頭臀徑 (crown-rump length) 約為 6.5 公分，外生殖器明顯分化，有吞嚥羊水的動作，預估懷孕週數為：",
+      "options": {
+        "A": "9週",
+        "B": "10週",
+        "C": "12週",
+        "D": "14週"
+      },
+      "answer": "C"
+    },
+    {
+      "chapter": "20",
+      "title": "發育解剖學",
+      "number": 17,
+      "question": "胚胎期是指什麼期間？",
+      "options": {
+        "A": "受精後 6 週內",
+        "B": "著床後 6 週內",
+        "C": "受精後第 3~8 週",
+        "D": "懷孕期的第 11~12 週"
+      },
+      "answer": "C"
+    },
+    {
+      "chapter": "20",
+      "title": "發育解剖學",
+      "number": 19,
+      "question": "胎兒體內的二氧化碳是利用何種機轉通過胎盤代謝出去？",
+      "options": {
+        "A": "簡單擴散",
+        "B": "促進擴散",
+        "C": "主動運輸",
+        "D": "胞飲"
+      },
+      "answer": "A"
     }
-  ]
+  ],
+  "odd_questions": []
 }
