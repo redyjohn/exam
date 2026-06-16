@@ -87,7 +87,7 @@ function toQuestion(raw: RawQuestionWithMeta, idPrefix: string): Question {
 
 async function fetchJson<T>(path: string): Promise<T> {
   const url = `${import.meta.env.BASE_URL}${path}`
-  const response = await fetch(url)
+  const response = await fetch(url, { cache: 'no-store' })
   if (!response.ok) {
     throw new Error(`載入失敗：${path}（${response.status}）`)
   }

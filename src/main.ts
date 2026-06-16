@@ -213,12 +213,12 @@ function renderSegmentQuizButtons(subject: Subject): string {
   if (usesChapterQuiz(subject)) {
     const chapters = getChapterRanges(subject.questions)
     return `
-              <p class="subtle">章節測驗（依序出題）</p>
-              <div class="actions">
+              <p class="subtle">章節測驗（依序出題，共 ${chapters.length} 章）</p>
+              <div class="chapter-grid">
                 ${chapters
                   .map(
                     (ch, idx) => `
-                    <button class="btn" data-action="chapter" data-subject="${subject.id}" data-chapter="${idx}">
+                    <button class="btn chapter-btn" data-action="chapter" data-subject="${subject.id}" data-chapter="${idx}">
                       第 ${ch.chapter} 章 ${ch.title}（${ch.questions.length} 題）
                     </button>
                   `,
@@ -276,8 +276,9 @@ function renderHome(): string {
       <section class="card-list">
         ${subjects.map((subject) => {
           const empty = subject.questions.length === 0
+          const cardClass = usesChapterQuiz(subject) ? 'card card--full' : 'card'
           return `
-            <article class="card">
+            <article class="${cardClass}">
               <h2>${subject.label}</h2>
               <p>共 ${subject.questions.length} 題</p>
               ${

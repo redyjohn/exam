@@ -60,6 +60,22 @@ p {
   gap: 12px;
 }
 
+.card--full {
+  grid-column: 1 / -1;
+}
+
+.chapter-grid {
+  display: grid;
+  gap: 10px;
+  grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
+}
+
+.chapter-btn {
+  text-align: left;
+  white-space: normal;
+  line-height: 1.4;
+}
+
 .question-card {
   gap: 14px;
 }
